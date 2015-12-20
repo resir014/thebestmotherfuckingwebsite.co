@@ -20,6 +20,8 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ["Makefile", "Gruntfile.js", "Gemfile", "README", "LICENSE", "tasks", "node_modules", "package.json"]
+keep_files: [".htaccess"]
 
 # Jekyll plugins
 gems:
