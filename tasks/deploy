@@ -17,6 +17,10 @@ if [ $RESULT_JEKYLL -ne 0 ]; then
   exit 1
 fi
 
+# Remove CNAME
+echo -e "\nRemoving CNAME..."
+rm ${JEKYLL_DEST}/CNAME
+
 echo -e "\nJekyll build successful."
 exit
 
