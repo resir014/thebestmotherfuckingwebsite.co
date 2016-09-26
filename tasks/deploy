@@ -7,7 +7,7 @@ JEKYLL_DEST=/var/www/thebestmotherfuckingwebsite.co/public_html
 WWW_ROOT=/var/www
 
 echo -e "Building Jekyll site to ${JEKYLL_DEST}..."
-jekyll build -d $JEKYLL_DEST
+bundle exec jekyll build -d $JEKYLL_DEST
 
 # Test if jekyll build was succesfull
 RESULT_JEKYLL=$?
