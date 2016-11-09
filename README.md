@@ -4,6 +4,10 @@
 
 Jekyll theme based on [Grayscale Bootstrap theme](http://ironsummitmedia.github.io/startbootstrap-grayscale/).
 
+## Testimonials
+
+*"This gave me AIDS."* - [/g/](https://warosu.org/g/thread/56994001#p56995427)
+
 ## Developing & running locally
 
 Requirements:
