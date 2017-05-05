@@ -8,6 +8,8 @@ Jekyll theme based on [Grayscale Bootstrap theme](http://ironsummitmedia.github.
 
 *"This gave me AIDS."* - [/g/](https://warosu.org/g/thread/56994001#p56995427)
 
+*"Yours is [the] opposite of what motherfucking sites are about."* - [@iamripu](https://twitter.com/iamripu/status/842614822004908035)
+
 ## Developing & running locally
 
 Requirements:
