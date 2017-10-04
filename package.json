@@ -1,0 +1,48 @@
+{
+  "name": "thebestmotherfuckingwebsite.co",
+  "description": "Source code for https://thebestmotherfuckingwebsite.co/",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Resi Respati <resir014@gmail.com>",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "rimraf public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "start": "npm run develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/node": "^8.0.31",
+    "@types/react": "^16.0.7",
+    "@types/react-dom": "^15.5.4",
+    "@types/react-helmet": "^5.0.3",
+    "classnames": "^2.2.5",
+    "gatsby": "^1.9.42",
+    "gatsby-link": "^1.6.15",
+    "gatsby-plugin-canonical-urls": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-sass": "^1.0.12",
+    "gatsby-plugin-typescript": "^1.4.8",
+    "gatsby-source-filesystem": "^1.5.1",
+    "gatsby-transformer-json": "^1.0.7",
+    "normalize.css": "5.0.0",
+    "prism-themes": "https://github.com/PrismJS/prism-themes.git",
+    "typeface-open-sans": "^0.0.35",
+    "typeface-zilla-slab": "^0.0.35",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.7.0",
+    "tslint-react": "^3.2.0"
+  }
+}

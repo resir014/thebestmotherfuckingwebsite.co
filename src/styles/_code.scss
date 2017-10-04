@@ -1,0 +1,35 @@
+// Code
+//
+// Inline and block-level code snippets. Includes tweaks to syntax highlighted
+// snippets from Pygments/Rouge and Gist embeds.
+
+code,
+pre {
+  font-family: Menlo, Monaco, "Consolas", "Courier New", monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+// Gatsby highlight
+.gatsby-highlight {
+  margin: 1rem 0;
+}

@@ -1,0 +1,39 @@
+.intro {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #000;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("./levi-bare-290789.jpg");
+    background-size: cover;
+    opacity: 0.25;
+  }
+
+  .introInner {
+    text-align: center;
+
+    h1 {
+      margin-top: 0;
+      color: inherit;
+    }
+  }
+
+  .introScrollThingy {
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 80%;
+  }
+}

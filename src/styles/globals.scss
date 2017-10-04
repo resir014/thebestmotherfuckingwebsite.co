@@ -1,0 +1,12 @@
+@import "~normalize.css";
+
+@import "base";
+@import "typography";
+@import "code";
+
+// Make min-height compulsory.
+
+#___gatsby,
+[data-reactroot] {
+  height: 100% !important;
+}
