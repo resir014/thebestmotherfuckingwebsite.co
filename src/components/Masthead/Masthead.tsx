@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import { Link as ScrollLink } from 'react-scroll'
 
 import Container from '../Container'
+import MastheadNavLink from './MastheadNavLink'
 
 import * as styles from './Masthead.module.scss'
 
@@ -14,9 +15,9 @@ const Masthead: React.SFC<{}> = () => (
           <Link to="/"><span className={styles.brand}>■</span> TBMFW</Link>
         </div>
         <nav className={styles.mastheadNav}>
-          <ScrollLink activeClass={styles.active} to="about" spy={true} smooth={true}>About</ScrollLink>
-          <a href="#">Features</a>
-          <a href="#">Epilogue</a>
+          <MastheadNavLink to="about">About</MastheadNavLink>
+          <MastheadNavLink to="features">Features</MastheadNavLink>
+          <MastheadNavLink to="epilogue">Epilogue</MastheadNavLink>
         </nav>
       </div>
     </Container>

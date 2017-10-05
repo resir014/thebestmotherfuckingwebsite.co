@@ -13,9 +13,14 @@ const Intro: React.SFC<{}> = ({}) => (
         <p>Your motherfucking websites got nothing compared to this beauty.</p>
       </Container>
     </div>
-    <div className={styles.introScrollThingy}>
-      <ScrollLink to="about" spy={true} smooth={true} offset={-60}>&#9660; scroll thingy &#9660;</ScrollLink>
-    </div>
+    <ScrollLink
+      className={styles.introScrollThingy}
+      to="about"
+      smooth={true}
+      offset={-60}
+    >
+      &#9660; scroll thingy &#9660;
+    </ScrollLink>
   </div>
 )
 

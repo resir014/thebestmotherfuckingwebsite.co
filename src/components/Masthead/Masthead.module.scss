@@ -58,13 +58,18 @@
       height: 100%;
 
       a {
-        display: flex;
+        display: inline-block;
         position: relative;
-        align-items: center;
+        line-height: 60px;
         padding: 0 1rem;
         font-weight: 300;
 
+        &:hover {
+          cursor: pointer;
+        }
+
         &.active {
+          color: #42dca3;
           border-bottom: 3px solid #42dca3;
         }
       }

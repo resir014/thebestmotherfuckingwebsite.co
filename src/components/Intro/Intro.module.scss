@@ -44,8 +44,14 @@
   }
 
   .introScrollThingy {
+    display: inline-block;
     position: absolute;
     bottom: 1.5rem;
     font-size: 80%;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
