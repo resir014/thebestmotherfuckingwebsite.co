@@ -38,6 +38,10 @@
       display: inline-block;
       font-weight: 600;
 
+      &:hover {
+        cursor: pointer;
+      }
+
       .brand {
         margin-right: 1rem;
       }

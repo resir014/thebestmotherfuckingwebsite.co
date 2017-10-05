@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
-import { Element, Events, scrollSpy } from 'react-scroll'
+import { Element, Events, scrollSpy, animateScroll as scroll } from 'react-scroll'
 
 import Intro from '../components/Intro'
 import About from '../components/About'
