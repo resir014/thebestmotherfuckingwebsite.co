@@ -38,7 +38,7 @@ const TemplateWrapper: React.SFC<WrapperProps> = ({ children, data }) => (
       ]}
     />
     <Masthead />
-    <main style={{ height: '100%', paddingTop: '50px' }}>
+    <main style={{ height: '100%', paddingTop: '60px' }}>
       {children()}
     </main>
   </div>

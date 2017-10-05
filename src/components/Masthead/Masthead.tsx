@@ -9,8 +9,13 @@ const Masthead: React.SFC<{}> = () => (
   <header className={styles.masthead}>
     <Container>
       <div className={styles.mastheadTitle}>
-        <Link to="/">✨ TBMFW</Link>
+        <Link to="/"><span className={styles.brand}>■</span> TBMFW</Link>
       </div>
+      <nav className={styles.mastheadNav}>
+        <a href="#">Intro</a>
+        <a href="#">Something</a>
+        <a href="#">Another</a>
+      </nav>
     </Container>
   </header>
 )

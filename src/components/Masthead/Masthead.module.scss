@@ -1,22 +1,15 @@
+@import "../../styles/variables";
+
 .masthead {
   position: fixed;
   z-index: 10;
   width: 100%;
   top: 0;
   left: 0;
-  height: 50px;
-  background-color: #1b2b34;
+  height: 60px;
+  background-color: #000;
+  font-family: $font-family-system-ui;
   color: #d8dee9;
-
-  .mastheadTitle {
-    display: inline-block;
-    line-height: 50px;
-
-    a {
-      color: #42dca3;
-      font-weight: 600;
-    }
-  }
 
   a {
     color: inherit;
@@ -25,6 +18,40 @@
     &:focus {
       color: #42dca3;
       text-decoration: none;
+    }
+  }
+
+  .mastheadTitle {
+    display: inline-block;
+    color: #42dca3;
+
+    a {
+      display: inline-block;
+      line-height: 60px;
+      font-weight: 600;
+
+      .brand {
+        margin-right: 1rem;
+      }
+    }
+
+    @media (min-width: $grid-breakpoint-md) {
+      width: calc(100% / 6);
+    }
+  }
+
+  .mastheadNav {
+    display: none;
+
+    @media (min-width: $grid-breakpoint-md) {
+      display: inline-block;
+
+      a {
+        display: inline-block;
+        line-height: 60px;
+        padding: 0 1rem;
+        font-weight: 300;
+      }
     }
   }
 }
