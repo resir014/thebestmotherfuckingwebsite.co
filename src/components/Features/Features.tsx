@@ -34,7 +34,15 @@ const Features = () => (
                 every single one of my ramblings across, and into your thick fucking skull.
               </li>
             </ul>
-            <p><small><sup>[1]</sup> Okay, listen the fuck up.</small></p>
+            <p>
+              <small>
+                <sup>[1]</sup> Okay, listen the fuck up. HTML5 adoption in browsers{' '}
+                has reached the tipping point. Unless you're one of those weirdos still using{' '}
+                Windows fucking XP, then every shitty browser there is ― even Internet Explorer ―{' '}
+                has implemented the <a href="https://caniuse.com/" target="_blank">core bits of HTML5</a>{' '}
+                No fucking excuses.
+              </small>
+            </p>
           </div>
         </Col>
         <Col>
