@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
 import { Element } from 'react-scroll'
+import * as classnames from 'classnames'
 
 import Container from '../Container'
 import Row from '../Row'
@@ -15,7 +16,7 @@ const Features = () => (
     <Container>
       <Row style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
         <Col>
-          <div className={styles.firstFeatureBox}>
+          <div className={styles.featureBox}>
             <h1 style={{ color: 'black' }}>WELL, GUESS WHAT:</h1>
             <p>
               Look at this fucking beauty. It's sleek. It loads. And it still has{' '}
@@ -34,35 +35,74 @@ const Features = () => (
                 every single one of my ramblings across, and into your thick fucking skull.
               </li>
             </ul>
-            <p>
+            <p style={{ fontSize: '80%' }}>
               <small>
                 <sup>[1]</sup> Okay, listen the fuck up. HTML5 adoption in browsers{' '}
                 has reached the tipping point. Unless you're one of those weirdos still using{' '}
-                Windows fucking XP, then every shitty browser there is ― even Internet Explorer ―{' '}
-                has implemented the <a href="https://caniuse.com/" target="_blank">core bits of HTML5</a>{' '}
+                Windows fucking XP, then every shitty browser there is ― Edge, Safari, even{' '}
+                Internet fucking Explorer ― has implemented the{' '}
+                <a href="https://caniuse.com/" target="_blank">core bits of HTML5</a>.{' '}
                 No fucking excuses.
               </small>
             </p>
           </div>
         </Col>
         <Col>
-          <img src={require('./rucksack-magazine-386319.jpg')} />
+          <div className={styles.featureImageBox}>
+            <img src={require('./rucksack-magazine-386319.jpg')} />
+            <div className={styles.credit}>
+              <UnsplashCreditBadge
+                src="https://unsplash.com/@rucksackmag?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+              >
+                Rucksack Magazine
+              </UnsplashCreditBadge>
+            </div>
+          </div>
         </Col>
       </Row>
-    </Container>
-    <Container style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
-      <h1>PERFORMANCE WITHOUT THE UNNECESSARY DIET.</h1>
-      <p>
-        Think your website is fat? Been thinking to take your website on a diet?{' '}
-        Stop the fuck right there. Your motherfucking website looks fine as it is,{' '}
-        don't let anybody fucking tell you otherwise.
-      </p>
-    </Container>
-    <Container>
-      <h1>Feature3</h1>
-      <p>
-        Feature3
-      </p>
+      <Row style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
+        <Col>
+          <h1>Feature3</h1>
+          <p>
+            Feature3
+          </p>
+        </Col>
+      </Row>
+      <Row style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
+        <Col>
+          <div className={styles.featureBox}>
+            <h1>PERFORMANCE WITHOUT THE UNNECESSARY DIET.</h1>
+            <p>
+              Think your website is fat? Been thinking to take your website on a diet?{' '}
+              Stop the fuck right there. Your motherfucking website looks fine as it is,{' '}
+              don't let anybody fucking tell you otherwise.
+            </p>
+            <p>
+              But "page bloat", you say? Sure, back in ye olde Web 2.0 days, this was a problem{' '}
+              But the thing is, on the modern web, page bloat has become much less of a fucking issue{' '}
+              than whoever the fuck's in charge of the USA right now. Especially when many tools{' '}
+              do all the heavylifting of performance work for your lazy ass.
+            </p>
+          </div>
+        </Col>
+        <Col style={{ position: 'relative' }}>
+          <div className={classnames(styles.featureBox, styles.alternate)}>
+            <p>
+              Strap yourselves in, motherfuckers, because I'm going to introduce you to the{' '}
+              <a href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/" target="_blank">PRPL pattern</a>{' '}
+              ― the Pilates of web development. <strong>Push</strong> your important fucking resources of your initial route with{' '}
+              <code>&lt;link rel="preload"&gt;</code>, or HTTP/2 if you're hipster as fuck. Only then{' '}
+              you can fucking <strong>render</strong> the initial route of your shitty-ass page. Inline{' '}
+              your fucking CSS for good measure. If your CSS load blocks the rendering of your page, fuck you.
+            </p>
+            <p>
+              Of course, chances are, your motherfucking website contains other child routes, like your{' '}
+              shitty <code>/blog</code>, so <strong>pre-cache</strong> those motherfuckers. Then <strong>lazy-load</strong>{' '}
+              them, meaning only fucking load them when needed, and not during the initial page load.
+            </p>
+          </div>
+        </Col>
+      </Row>
     </Container>
   </FullScreenSection>
 )
