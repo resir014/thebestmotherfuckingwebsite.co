@@ -1,11 +1,12 @@
 .fullScreenSection {
   display: flex;
   min-height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   position: relative;
   z-index: 1;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 
   .fullScreenSectionInner {
     h1 {

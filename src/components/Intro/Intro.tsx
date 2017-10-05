@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Link from 'gatsby-link'
+import { Link as ScrollLink } from 'react-scroll'
 
 import Container from '../Container'
 
@@ -14,7 +14,7 @@ const Intro: React.SFC<{}> = ({}) => (
       </Container>
     </div>
     <div className={styles.introScrollThingy}>
-      &#9660; scroll thingy &#9660;
+      <ScrollLink to="about" spy={true} smooth={true} offset={-60}>&#9660; scroll thingy &#9660;</ScrollLink>
     </div>
   </div>
 )
