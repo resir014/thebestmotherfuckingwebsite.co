@@ -14,7 +14,7 @@ import * as styles from './Features.module.scss'
 const Features = () => (
   <FullScreenSection name="features">
     <Container>
-      <Row style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
+      <Row style={{ paddingBottom: '3rem' }}>
         <Col>
           <div className={styles.featureBox}>
             <h1 style={{ color: 'black' }}>WELL, GUESS WHAT:</h1>
@@ -68,7 +68,7 @@ const Features = () => (
           </p>
         </Col>
       </Row>
-      <Row style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
+      <Row style={{ paddingTop: '3rem' }}>
         <Col>
           <div className={styles.featureBox}>
             <h1>PERFORMANCE WITHOUT THE UNNECESSARY DIET.</h1>
