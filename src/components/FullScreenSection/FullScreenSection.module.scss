@@ -1,0 +1,15 @@
+.fullScreenSection {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+
+  .fullScreenSectionInner {
+    h1 {
+      margin-top: 0;
+    }
+  }
+}
