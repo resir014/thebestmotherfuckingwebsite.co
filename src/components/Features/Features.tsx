@@ -10,9 +10,11 @@ import * as styles from './Features.module.scss'
 const Features = () => (
   <FullScreenSection name="features">
     <Container>
-      <h1>Feature1</h1>
+      <h1>PERFORMANCE WITHOUT THE UNNECESSARY DIET.</h1>
       <p>
-        Feature1
+        Think your website is fat? Been thinking to take your website on a diet?{' '}
+        Stop the fuck right there. Your motherfucking website looks fine as it is,{' '}
+        don't let anybody fucking tell you otherwise.
       </p>
     </Container>
     <Container>
