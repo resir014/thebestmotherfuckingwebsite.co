@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.col {
+  padding: 0 1rem;
+
+  @media (min-width: $grid-breakpoint-sm) {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+
+    &:first-of-type {
+      padding-left: 0;
+    }
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+}
