@@ -1,5 +1,11 @@
+@import "../../styles/variables";
+
 .container {
-  max-width: 970px;
+  max-width: $max-width;
   margin: 0 auto;
   padding: 0 1rem;
+
+  @media (min-width: $grid-breakpoint-lg) {
+    max-width: $max-width-lg;
+  }
 }

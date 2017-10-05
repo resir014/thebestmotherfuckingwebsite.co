@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .intro {
   display: flex;
   min-height: 100%;
@@ -25,9 +27,18 @@
   .introInner {
     text-align: center;
 
+
     h1 {
       margin-top: 0;
       color: inherit;
+    }
+
+    @media (min-width: $grid-breakpoint-md) {
+      font-size: 1.5rem;
+
+      h1 {
+        font-size: 3.5rem;
+      }
     }
   }
 
