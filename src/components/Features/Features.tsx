@@ -162,7 +162,7 @@ const Features = () => (
               </p>
               <p>
                 Thank god for React and CSS-in-JS. I know it sounds counterintuitive,{' '}
-                but hear me out.
+                but hear me out. (todo)
               </p>
               <p>
                 So here you go, all the goodness of React styling, rolled into this{' '}
