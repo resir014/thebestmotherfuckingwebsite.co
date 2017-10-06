@@ -7,6 +7,7 @@ import About from '../components/About'
 import Features from '../components/Features'
 import Container from '../components/Container'
 import FullScreenSection from '../components/FullScreenSection'
+import Footer from '../components/Footer'
 
 class IndexPage extends React.Component<{}, {}> {
   constructor () {
@@ -44,6 +45,7 @@ class IndexPage extends React.Component<{}, {}> {
             </p>
           </Container>
         </FullScreenSection>
+        <Footer />
       </div>
     )
   }
