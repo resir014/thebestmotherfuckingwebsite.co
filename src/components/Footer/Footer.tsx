@@ -11,13 +11,17 @@ const Footer = () => (
     <Container>
       <hr className={styles.footerRule} />
       <p>
-        Inspired by{' '}
-        <a href="http://motherfuckingwebsite.com/">these</a>{' '}
-        <a href="http://bettermotherfuckingwebsite.com/">motherfucking</a>{' '}
-        <a href="http://evenbettermotherfucking.website/">websites</a>.
+        <small>
+          Inspired by{' '}
+          <a href="http://motherfuckingwebsite.com/">these</a>{' '}
+          <a href="http://bettermotherfuckingwebsite.com/">motherfucking</a>{' '}
+          <a href="http://evenbettermotherfucking.website/">websites</a>.
+        </small>
       </p>
       <p>
-        Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+        <small>
+          Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+        </small>
       </p>
     </Container>
   </footer>
