@@ -4,9 +4,8 @@ import Helmet from 'react-helmet'
 
 import Masthead from '../components/Masthead'
 
-import 'typeface-nunito'
+import 'typeface-rubik'
 import 'typeface-open-sans'
-import 'typeface-lora'
 
 import '../styles/globals.scss'
 import 'prism-themes/themes/prism-atom-dark.css'

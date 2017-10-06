@@ -37,9 +37,8 @@
     "normalize.css": "5.0.0",
     "prism-themes": "https://github.com/PrismJS/prism-themes.git",
     "react-scroll": "^1.5.5",
-    "typeface-lora": "^0.0.35",
-    "typeface-nunito": "^0.0.35",
     "typeface-open-sans": "^0.0.35",
+    "typeface-rubik": "^0.0.35",
     "typescript": "^2.5.2"
   },
   "devDependencies": {
