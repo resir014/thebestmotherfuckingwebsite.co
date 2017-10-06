@@ -16,7 +16,7 @@ const Features = () => (
     <Container>
       <Row style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <Col>
-          <div className={styles.featureBox}>
+          <div className={classnames(styles.featureBox, styles.guessWhat)}>
             <h2 style={{ color: 'black' }}>WELL, GUESS WHAT:</h2>
             <p>
               Look at this fucking beauty. It's sleek. It loads faster than you{' '}
@@ -67,12 +67,12 @@ const Features = () => (
           <div className={styles.featureBox}>
             <h2>MODERN JAVASCRIPT WITHOUT THE HEADACHE.</h2>
             <p>
-              (todo)
+              The JavaScript ecosystem is exploding like an uncontained diarrhea,{' '}
+              and in the middle of that overall page size on the Web also increased.{' '}
+              So you might think that websites will load slower than ever.
             </p>
             <p>
-              The JavaScript ecosystem is exploding like an uncontained diarrhea,{' '}
-              so does the overally page size. So you might think that websites will{' '}
-              load slower than ever. Wrong, motherfucker.
+              <strong>Wrong, motherfucker</strong>.
             </p>
             <p>
               Look at how fast this shit loads. It's faster than you can even take a shit.{' '}
@@ -80,10 +80,26 @@ const Features = () => (
               a fawesome static-site generator powered by React which which shits out{' '}
               pre-rendered static pages with extra optimization.
             </p>
+            <p>
+              And to make things better, the source code is written with static typing,{' '}
+              so that the computer shames your shitty coding skills into fixing the{' '}
+              inherent type errors in your fucking codebase. I use{' '}
+              <a href="http://www.typescriptlang.org/" target="_blank">TypeScript</a>,{' '}
+              it's fucking awesome.
+            </p>
           </div>
         </Col>
         <Col>
-          <p>todo: image</p>
+          <div className={styles.featureImageBox}>
+            <img src={require('./ryan-searle-345035.jpg')} />
+            <div className={styles.credit}>
+              <UnsplashCreditBadge
+                src="https://unsplash.com/@ryansearle?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+              >
+                Ryan Searle
+              </UnsplashCreditBadge>
+            </div>
+          </div>
         </Col>
       </Row>
       <Row style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
@@ -110,7 +126,9 @@ const Features = () => (
           </div>
         </Col>
         <Col style={{ position: 'relative' }}>
-          <div className={classnames(styles.featureBox, styles.alternate)}>
+          <div
+            className={classnames(styles.featureBox, styles.alternate)}
+          >
             <p>
               Strap yourselves in, motherfuckers, because I'm going to introduce you to the{' '}
               <a href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/" target="_blank">PRPL pattern</a>{' '}
@@ -135,16 +153,21 @@ const Features = () => (
         <Row>
           <Col>
             <div className={styles.innerBox}>
-              <h2>ACTUAL GOOD FUCKING DESIGN.</h2>
+              <h2>GOOD DESIGN WITHOUT THE TORTURE.</h2>
               <p>
-                (todo)
+                I'm gonna level with you. I'm suffering from a rare health condition{' '}
+                known as "CSS-itis". It prevents me from doing productive shit with,{' '}
+                and even touching a single line of CSS, if I could help it. I never{' '}
+                thought I would see the light of day.
               </p>
               <p>
-                Big fucking headers and an orgasmic typographic choice makes for{' '}
-                next-level shit.
+                Thank god for React and CSS-in-JS. I know it sounds counterintuitive,{' '}
+                but hear me out.
               </p>
               <p>
-                Also, for the background I like it dark. It's edgy as fuck. Plus,{' '}
+                So here you go, all the goodness of React styling, rolled into this{' '}
+                very page. Beautiful typography. And alignment. Also, light-coloured{' '}
+                backgrounds are for losers. I like it dark. It's edgy as fuck. Plus,{' '}
                 it doesn't hurt your fucking eyes when you're looking at this{' '}
                 beauty for 16 hours straight.
               </p>
