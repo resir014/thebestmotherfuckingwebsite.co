@@ -20,7 +20,8 @@ const Footer = () => (
       </p>
       <p>
         <small>
-          Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+          Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.{' '}
+          Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>.
         </small>
       </p>
     </Container>

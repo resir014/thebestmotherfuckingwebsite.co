@@ -6,4 +6,8 @@
   flex-wrap: wrap;
   margin-right: -1rem;
   margin-left: -1rem;
+
+  &.reversed {
+    flex-direction: row-reverse;
+  }
 }

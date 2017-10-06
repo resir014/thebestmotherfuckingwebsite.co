@@ -14,10 +14,10 @@ import * as styles from './Features.module.scss'
 const Features = () => (
   <FullScreenSection name="features">
     <Container>
-      <Row style={{ paddingBottom: '3rem' }}>
+      <Row style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <Col>
           <div className={styles.featureBox}>
-            <h1 style={{ color: 'black' }}>WELL, GUESS WHAT:</h1>
+            <h2 style={{ color: 'black' }}>WELL, GUESS WHAT:</h2>
             <p>
               Look at this fucking beauty. It's sleek. It loads faster than you{' '}
               can even take a shit. And not to mention that it still has{' '}
@@ -32,12 +32,12 @@ const Features = () => (
                 that visits your site<sup><small>[1]</small></sup>.
               </li>
               <li>
-                Uses some <em>actual</em> design fucking elements, so that{' '}
-                every single one of my ramblings could go through your thick fucking skull.
+                Uses some <em>actual</em> design elements, to further{' '}
+                bring the point home.
               </li>
               <li>Is entirely <a href="https://github.com/resir014/thebestmotherfuckingwebsite.co">open source</a>.</li>
             </ul>
-            <p style={{ fontSize: '80%' }}>
+            <p>
               <small>
                 <sup>[1]</sup> Okay, listen up here. HTML5 adoption in browsers{' '}
                 has reached the tipping point. Unless you're one of those weirdos still using{' '}
@@ -62,22 +62,34 @@ const Features = () => (
           </div>
         </Col>
       </Row>
-      <Row style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
-        <Col>
-          <h1>USE SOME FUCKING COLOURS.</h1>
-          <p>
-            Feature3
-          </p>
-          <p>
-            Also, I like it dark. It's edgy as fuck. Plus, it doesn't hurt your{' '}
-            fucking eyes when you're looking at this beauty for 16 hours straight.
-          </p>
-        </Col>
-      </Row>
-      <Row style={{ paddingTop: '3rem' }}>
+      <Row reverse={true} style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <Col>
           <div className={styles.featureBox}>
-            <h1>BLAZING-FAST JAVASCRIPT. NO DIET REQUIRED.</h1>
+            <h2>MODERN JAVASCRIPT WITHOUT THE HEADACHE.</h2>
+            <p>
+              (todo)
+            </p>
+            <p>
+              The JavaScript ecosystem is exploding like an uncontained diarrhea,{' '}
+              so does the overally page size. So you might think that websites will{' '}
+              load slower than ever. Wrong, motherfucker.
+            </p>
+            <p>
+              Look at how fast this shit loads. It's faster than you can even take a shit.{' '}
+              This website is rendered with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a>,{' '}
+              a fawesome static-site generator powered by React which which shits out{' '}
+              pre-rendered static pages with extra optimization.
+            </p>
+          </div>
+        </Col>
+        <Col>
+          <p>todo: image</p>
+        </Col>
+      </Row>
+      <Row style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
+        <Col>
+          <div className={styles.featureBox}>
+            <h2>PERFORMANCE WITHOUT THE UNNECESSARY DIET.</h2>
             <p>
               Think your website is fat? Been thinking to take your website on an unnecessary diet?{' '}
               Stop the fuck right there. Your motherfucking website looks fine as it is,{' '}
@@ -89,7 +101,7 @@ const Features = () => (
               than whether or not we should put in pineapple on a fucking pizza<sup><small>[1]</small></sup>.{' '}
               Especially when many tools do all the heavylifting of performance work for your lazy ass.
             </p>
-            <p style={{ fontSize: '80%' }}>
+            <p>
               <small>
                 <sup>[1]</sup> Well hey, I don't care whatever the fuck you do to your pizza,{' '}
                 I'm not your mom. So if it tastes good for you, then... why the hell not?
@@ -114,14 +126,33 @@ const Features = () => (
               <strong>lazy-load</strong> them, meaning only load them when needed,{' '}
               and not during the initial page load.
             </p>
-            <p>
-              This website is rendered with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a>,{' '}
-              a fawesome static-site generator powered by React which does exactly all of the things mentioned above.
-            </p>
           </div>
         </Col>
       </Row>
     </Container>
+    <div className={styles.featureFullscreenBackground}>
+      <Container>
+        <Row>
+          <Col>
+            <div className={styles.innerBox}>
+              <h2>ACTUAL GOOD FUCKING DESIGN.</h2>
+              <p>
+                (todo)
+              </p>
+              <p>
+                Big fucking headers and an orgasmic typographic choice makes for{' '}
+                next-level shit.
+              </p>
+              <p>
+                Also, for the background I like it dark. It's edgy as fuck. Plus,{' '}
+                it doesn't hurt your fucking eyes when you're looking at this{' '}
+                beauty for 16 hours straight.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   </FullScreenSection>
 )
 

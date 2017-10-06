@@ -1,3 +1,22 @@
+// Colors
+$white: #fff;
+$black: #000;
+$yellow: #fff44f;
+
+$accent: #42dca3;
+$accent-hover: #1d9b6c;
+
+$body-bg: $black;
+$body-bg-inverse: $white;
+$body-color: darken($white, 25%);
+$body-color-inverse: lighten($black, 25%);
+$heading-color: $white;
+$heading-color-inverse: $black;
+$link-color: $accent;
+$link-color-hover: $accent-hover;
+
+$border-color: lighten($body-bg, 15%);
+
 // Font stack
 $font-family-system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
 $font-family-sans-serif: "Open Sans", $font-family-system-ui;

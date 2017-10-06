@@ -9,7 +9,9 @@
   padding: 1.5rem 0;
 
   .fullScreenSectionInner {
-    h1 {
+    width: 100%;
+
+    h1, h2, h3 {
       margin-top: 0;
     }
   }

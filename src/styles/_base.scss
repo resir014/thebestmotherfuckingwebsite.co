@@ -37,18 +37,19 @@ html {
 }
 
 body {
-  color: #d8dee9;
-  background-color: #000;
+  color: $body-color;
+  background-color: $body-bg;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 a {
-  color: #42dca3;
+  color: $link-color;
   text-decoration: none;
 
   &:hover,
   &:focus {
+    color: $link-color-hover;
     text-decoration: underline;
   }
 }
