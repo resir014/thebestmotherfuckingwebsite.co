@@ -6,7 +6,8 @@ module.exports = {
       name: 'Resi Respati',
       url: 'https://twitter.com/resir014',
       email: 'resir014@gmail.com'
-    }
+    },
+    siteUrl: `https://thebestmotherfuckingwebsite.co`
   },
   plugins: [
     {

@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import Container from '../components/Container'
@@ -6,6 +7,11 @@ import FullScreenSection from '../components/FullScreenSection'
 
 const NotFoundPage = () => (
   <div style={{ height: '100%' }}>
+    <Helmet
+      meta={[
+        { property: 'og:url', content: 'https://thebestmotherfucking.co/404.html' },
+      ]}
+    />
     <FullScreenSection name="404">
       <Container>
         <h1>404 - Page not found.</h1>

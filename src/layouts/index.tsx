@@ -22,6 +22,7 @@ interface WrapperProps {
           name: string
           url: string
         }
+        siteUrl: string
       }
     }
   }
@@ -34,6 +35,10 @@ const TemplateWrapper: React.SFC<WrapperProps> = ({ children, data }) => (
       meta={[
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'keywords', content: 'web design, motherfucking website, motherfuckingwebsite' },
+        { property: 'og:title', content: 'thebestmotherfuckingwebsite.co' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: '/image-og.png' },
+        { property: 'og:description', content: data.site.siteMetadata.description }
       ]}
     />
     <Masthead />
@@ -55,6 +60,7 @@ export const query = graphql`
           name,
           url
         }
+        siteUrl
       }
     }
   }
