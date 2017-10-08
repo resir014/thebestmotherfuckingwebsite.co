@@ -23,6 +23,12 @@ module.exports = {
         siteUrl: `https://thebestmotherfuckingwebsite.co`
       }
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-11448343-6'
+      }
+    },
     'gatsby-transformer-json',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sass',

@@ -29,6 +29,7 @@
     "gatsby": "^1.9.42",
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-canonical-urls": "^1.0.6",
+    "gatsby-plugin-google-analytics": "^1.0.8",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-sass": "^1.0.12",
     "gatsby-plugin-typescript": "^1.4.8",
