@@ -29,7 +29,7 @@ const Epilogue: React.SFC<{}> = () => (
       </blockquote>
       <p>
         Anyways, this website is made by <a href="https://resir014.xyz/">me</a>, and the domain name is generously donated by{' '}
-        <a href="https://twitter.com/A7_145">him</a> It's entirely open-source and available on{' '}
+        <a href="https://twitter.com/A7_145">him</a>. It's entirely open-source and available on{' '}
         <a href="https://github.com/resir014/thebestmotherfuckingwebsite.co">GitHub</a>.
       </p>
     </Container>
