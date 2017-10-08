@@ -1,0 +1,82 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.featureSection {
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.featureBox {
+  padding: 1.5rem;
+  background-color: $body-bg-inverse;
+  color: $body-color-inverse;
+
+  h1, h2, h3 {
+    color: black;
+  }
+
+  a {
+    color: $accent-hover;
+  }
+
+  strong {
+    color: $heading-color-inverse;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &.alternate {
+    font-size: 80%;
+    background-color: $accent;
+    color: $body-color-inverse;
+
+    a {
+      color: $yellow;
+    }
+
+    @media (min-width: $grid-breakpoint-md) {
+      position: absolute;
+      bottom: 2rem;
+      right: 1rem;
+    }
+  }
+}
+
+.featureImageBox {
+  position: relative;
+
+  img {
+    margin: 0;
+  }
+
+  .credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
+.featureFullscreenBackground {
+  margin-top: 4rem;
+  padding: 4rem 0;
+  width: 100%;
+  background: url('./alex-holyoake-113856.jpg') no-repeat center center;
+  background-size: cover;
+
+  .innerBox {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .75);
+  }
+
+  .credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

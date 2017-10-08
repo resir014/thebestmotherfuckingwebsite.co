@@ -1,0 +1,46 @@
+// Colors
+$white: #fff;
+$black: #000;
+$yellow: #fff44f;
+
+$accent: #42dca3;
+$accent-hover: #1d9b6c;
+
+$body-bg: $black;
+$body-bg-inverse: $white;
+$body-color: darken($white, 25%);
+$body-color-inverse: lighten($black, 25%);
+$heading-color: $white;
+$heading-color-inverse: $black;
+$link-color: $accent;
+$link-color-hover: $accent-hover;
+
+$border-color: lighten($body-bg, 15%);
+
+// Font stack
+$font-family-system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: "Open Sans", $font-family-system-ui;
+$font-family-serif: "Lora", Georgia, "Times New Roman", Times, serif;
+$font-family-heading: "Rubik", $font-family-system-ui;
+$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Media breakpoints
+// (NOTE: Always use @media (min-width) when using these variables.)
+$grid-breakpoint-xs: 0;
+$grid-breakpoint-sm: 576px;
+$grid-breakpoint-md: 768px;
+$grid-breakpoint-lg: 992px;
+$grid-breakpoint-xl: 1200px;
+
+// Dimensions for grid
+$max-width: 750px;
+$max-width-lg: 970px;
+$max-width-xl: 1170px;
+$container-padding: 1.5rem;
+$container-padding-lg: 3rem;
+
+// Font dimensions
+$font-size: 16px;
+$font-size-lg: 18px;
+$line-height: 1.25;
+$line-height-lg: 1.375;

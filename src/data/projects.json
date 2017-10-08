@@ -1,0 +1,62 @@
+[
+  {
+    "title": "node-mpw",
+    "year": 2017,
+    "languages": [
+      "TypeScript"
+    ],
+    "details": "Implementation of <a href=\"https://ssl.masterpasswordapp.com/algorithm.html\" target=\"_blank\">the Master Password algorithm</a> for nodejs and browser.",
+    "url": "https://github.com/blvdgroup/node-mpw"
+  },
+  {
+    "title": "Screeps",
+    "year": 2016,
+    "languages": [
+      "JS",
+      "TypeScript"
+    ],
+    "details": "AI scripts and starter packs I've made for the game <a href=\"https://screeps.com/\" target=\"_blank\">Screeps</a>.",
+    "url": "https://resir014.github.io/projects/2016/screeps/"
+  },
+  {
+    "title": "Clear Sans Webfont",
+    "year": 2014,
+    "languages": [
+      "CSS"
+    ],
+    "langclass": "project-language--typescript",
+    "details": "Webfont conversion of the <a href=\"https://01.org/clear-sans\" target=\"_blank\">Clear Sans</a> typeface designed by Intel.",
+    "url": "https://resir014.github.io/Clear-Sans-Webfont/"
+  },
+  {
+    "title": "Tumblr Boilerplate",
+    "year": 2014,
+    "languages": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "details": "A base starter kit for developing Tumblr themes.",
+    "url": "https://github.com/resir014/Tumblr-Boilerplate"
+  },
+  {
+    "title": "stars-not-hearts",
+    "year": 2016,
+    "languages": [
+      "CSS"
+    ],
+    "details": "Custom CSS to replace the heart icons on <a href=\"https://twitter.com/\" target=\"_blank\">Twitter</a> and <a href=\"https://tweetdeck.twitter.com/\" target=\"_blank\">TweetDeck</a> to stars.",
+    "url": "https://github.com/resir014/stars-not-hearts"
+  },
+  {
+    "title": "gnu-social-status",
+    "year": 2016,
+    "languages": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "details": "Monitors the status of popular GNU Social instances.",
+    "url": "https://resir014.github.io/gnu-social-status/"
+  }
+]

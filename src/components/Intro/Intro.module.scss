@@ -1,0 +1,63 @@
+@import "../../styles/variables";
+
+.intro {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #000;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("./levi-bare-290789.jpg");
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+  .introInner {
+    text-align: center;
+    font-weight: 300;
+
+
+    h1 {
+      margin-top: 0;
+      color: inherit;
+    }
+
+    @media (min-width: $grid-breakpoint-md) {
+      font-size: 1.5rem;
+
+      h1 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  .introScrollThingy {
+    display: inline-block;
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 80%;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

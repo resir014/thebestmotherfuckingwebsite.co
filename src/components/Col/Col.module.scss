@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding: 0 1rem;
+
+  @media (min-width: $grid-breakpoint-md) {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}

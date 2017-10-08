@@ -1,0 +1,82 @@
+@import "../../styles/variables";
+
+.masthead {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: #000;
+  font-family: $font-family-system-ui;
+  color: #d8dee9;
+
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: #42dca3;
+      text-decoration: none;
+    }
+  }
+
+  .mastheadInner {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+  }
+
+  .mastheadTitle {
+    display: flex;
+    margin-right: .5rem;
+    height: 100%;
+    align-items: center;
+    color: #42dca3;
+
+    a {
+      display: inline-block;
+      font-weight: 600;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      .brand {
+        margin-right: .5rem;
+      }
+    }
+
+    @media (min-width: $grid-breakpoint-md) {
+      width: calc(100% / 6);
+    }
+  }
+
+  .mastheadNav {
+    display: none;
+
+    @media (min-width: $grid-breakpoint-md) {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      height: 100%;
+
+      a {
+        display: inline-block;
+        position: relative;
+        line-height: 60px;
+        padding: 0 1rem;
+        font-weight: 300;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &.active {
+          color: #42dca3;
+          border-bottom: 3px solid #42dca3;
+        }
+      }
+    }
+  }
+}

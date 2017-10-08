@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.footer {
+  margin: 4rem 0;
+
+  .footerRule {
+    display: inline-block;
+    width: calc(100% / 6);
+    border: 0;
+    border-top: 1px solid $border-color;
+  }
+
+  p {
+    margin: 0;
+  }
+}

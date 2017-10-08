@@ -1,8 +1,6 @@
 # thebestmotherfuckingwebsite.co
 
-> Source code for thebestmotherfuckingwebsite.co
-
-Jekyll theme based on [Grayscale Bootstrap theme](http://ironsummitmedia.github.io/startbootstrap-grayscale/).
+> Source code for [thebestmotherfuckingwebsite.co](https://thebestmotherfuckingwebsite.co).
 
 ## Testimonials
 
@@ -10,33 +8,29 @@ Jekyll theme based on [Grayscale Bootstrap theme](http://ironsummitmedia.github.
 
 *"Yours is [the] opposite of what motherfucking sites are about."* - [@iamripu](https://twitter.com/iamripu/status/842614822004908035)
 
-## Developing & running locally
+## Developing
 
-Requirements:
-* Ruby (v2.0.0+)
-* Bundler
-  (included from within Rails (`gem install rails`), or `gem install bundler`)
-* Jekyll <http://jekyllrb.com/>
-  (install from within Ruby: `gem install jekyll`)
-* Node.js
-  (Jekyll requires the Node.js runtime to work)
+A nodejs >= 6.0.0 setup with [yarn](https://yarnpkg.com/) is recommended.
 
-Clone it. ( `git clone https://github.com/resir014/thebestmotherfuckingwebsite.co.git` )
+``` bash
+# install dependencies
+yarn
 
-Then install all the bundled Rubygems.
+# ...or if you'd like to use npm instead
+npm install
 
-```bash
-$ bundle install
+# serve with hot reload at localhost:8000
+npm start
+
+# build for production
+npm run build
+
+# build for production and push to gh-pages branch
+npm run deploy
+
+# TODO: tests
 ```
 
-Simply running `bundle` also works.
+## Credits
 
-After the plugins are installed, we can now run a local server from within our computer.
-
-```bash
-$ bundle exec jekyll serve
-```
-
----
-
-For more details, read the [documentation](http://jekyllrb.com/)
+Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site generator for [React](https://facebook.github.io/react/).
