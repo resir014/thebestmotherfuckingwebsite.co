@@ -26,7 +26,7 @@ const Intro: React.SFC<{}> = ({}) => (
       <UnsplashCreditBadge
         src="https://unsplash.com/@levibare1?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
       >
-        Alex Holyoake
+        Levi Bare
       </UnsplashCreditBadge>
     </div>
   </div>

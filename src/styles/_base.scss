@@ -45,12 +45,19 @@ body {
 
 a {
   color: $link-color;
-  text-decoration: none;
 
   &:hover,
   &:focus {
     color: $link-color-hover;
-    text-decoration: underline;
+  }
+
+  @media (min-width: $grid-breakpoint-md) {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 }
 

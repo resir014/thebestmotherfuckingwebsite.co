@@ -67,7 +67,7 @@ const Features = () => (
           <div className={styles.featureBox}>
             <h2>MODERN JAVASCRIPT WITHOUT THE HEADACHE.</h2>
             <p>
-              The JavaScript ecosystem is exploding like an uncontained diarrhea,{' '}
+              The JavaScript ecosystem is exploding like uncontained diarrhea,{' '}
               and in the middle of that overall page size on the Web also increased.{' '}
               So you might think that websites will load slower than ever.
             </p>

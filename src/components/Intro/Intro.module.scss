@@ -56,8 +56,13 @@
   }
 
   .credit {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    display: none;
+
+    @media (min-width: $grid-breakpoint-md) {
+      display: block;
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+    }
   }
 }
