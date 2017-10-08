@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link as ScrollLink } from 'react-scroll'
 
 import Container from '../Container'
+import UnsplashCreditBadge from '../UnsplashCreditBadge'
 
 import * as styles from './Intro.module.scss'
 
@@ -21,6 +22,13 @@ const Intro: React.SFC<{}> = ({}) => (
     >
       &#9660; scroll thingy &#9660;
     </ScrollLink>
+    <div className={styles.credit}>
+      <UnsplashCreditBadge
+        src="https://unsplash.com/@levibare1?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      >
+        Alex Holyoake
+      </UnsplashCreditBadge>
+    </div>
   </div>
 )
 

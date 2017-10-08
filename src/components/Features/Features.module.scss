@@ -62,7 +62,7 @@
 }
 
 .featureFullscreenBackground {
-  margin: 4rem 0;
+  margin-top: 4rem;
   padding: 4rem 0;
   width: 100%;
   background: url('./alex-holyoake-113856.jpg') no-repeat center center;
@@ -72,5 +72,11 @@
     margin: 0 auto;
     padding: 2rem;
     background-color: rgba(0, 0, 0, .75);
+  }
+
+  .credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
   }
 }

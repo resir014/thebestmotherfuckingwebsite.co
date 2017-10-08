@@ -134,14 +134,12 @@ const Features = () => (
               <a href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/" target="_blank">PRPL pattern</a>{' '}
               ― the Pilates of web development. <strong>Push</strong> your important fucking resources of your initial route with{' '}
               <code>&lt;link rel="preload"&gt;</code>, or <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank">HTTP/2</a>{' '}
-              if you're hipster as fuck. Only then you can <strong>render</strong>{' '}
-              the initial route of your shitty-ass page. Inline your CSS too for good{' '}measure.
-              If your CSS load blocks the rendering of your page, fuck you.
+              if you're hipster as fuck. Only then you can <strong>render</strong>the initial route of your shitty-ass page. Inline{' '}
+              your CSS too for good measure. If your CSS load blocks the rendering of your page, fuck you.
             </p>
             <p>
-              Of course, chances are, your motherfucking website contains other child routes, like your{' '}
-              shitty <code>/blog</code>, so <strong>pre-cache</strong> those motherfuckers. Then{' '}
-              <strong>lazy-load</strong> them, meaning only load them when needed,{' '}
+              Of course, chances are, your motherfucking website contains other child routes, like your shitty <code>/blog</code>, so{' '}
+              <strong>pre-cache</strong> those motherfuckers. Then <strong>lazy-load</strong> them, meaning only load them when needed,{' '}
               and not during the initial page load.
             </p>
           </div>
@@ -155,14 +153,18 @@ const Features = () => (
             <div className={styles.innerBox}>
               <h2>GOOD DESIGN WITHOUT THE TORTURE.</h2>
               <p>
-                I'm gonna level with you. I'm suffering from a rare health condition{' '}
-                known as "CSS-itis". It prevents me from doing productive shit with,{' '}
-                and even touching a single line of CSS, if I could help it. I never{' '}
-                thought I would see the light of day.
+                I'm gonna level with you. I'm suffering from a rare health condition known as "CSS-itis". It prevents me from doing{' '}
+                productive shit with, and even touching a single line of CSS, if I could help it. I never thought I would see the light{' '}
+                of day.
               </p>
               <p>
-                Thank god for React and CSS-in-JS. I know it sounds counterintuitive,{' '}
-                but hear me out. (todo)
+                Here's a solution: CSS-in-JS. I know it sounds counterintuitive,but hear me out. Designing React components is already{' '}
+                a pain in the ass, especially with global styles. Thank fuck for{' '}
+                <a href="https://github.com/css-modules/css-modules" target="_blank">CSS Modules</a>, which breaks your CSS down to{' '}
+                components, makes them importable in your JavaScript, and is also pairable with SCSS. There's also a lot of other{' '}
+                options, like <a href="https://github.com/styled-components/styled-components" target="_blank">Styled Components</a>,{' '}
+                <a href="https://emotion.sh/" target="_blank">Emotion</a>,{' '}
+                <a href="https://github.com/paypal/glamorous" target="_blank">glamorous</a>, etc.
               </p>
               <p>
                 So here you go, all the goodness of React styling, rolled into this{' '}
@@ -175,6 +177,13 @@ const Features = () => (
           </Col>
         </Row>
       </Container>
+      <div className={styles.credit}>
+        <UnsplashCreditBadge
+          src="https://unsplash.com/@stairhopper?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+        >
+          Alex Holyoake
+        </UnsplashCreditBadge>
+      </div>
     </div>
   </FullScreenSection>
 )
