@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 import { Element, Events, scrollSpy, animateScroll as scroll } from 'react-scroll'
 
 import Intro from '../components/Intro'
@@ -35,6 +36,11 @@ class IndexPage extends React.Component<{}, {}> {
   public render() {
     return (
       <div style={{ height: '100%' }}>
+        <Helmet
+          meta={[
+            { property: 'og:url', content: 'https://thebestmotherfucking.co/index.html' },
+          ]}
+        />
         <Intro />
         <About />
         <Features />
