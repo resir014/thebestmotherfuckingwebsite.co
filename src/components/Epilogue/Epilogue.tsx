@@ -14,7 +14,7 @@ const Epilogue: React.SFC<{}> = () => (
         I'm gonna go out on a limb and end it on a positive note. Yes, it's true that the{' '}
         <a href="https://www.wired.com/2016/04/average-webpage-now-size-original-doom/">
           average webpage is now the size of the original DOOM
-        </a>, but the average size of video games have grown exponentially grown as well. In fact, the developers of No Man's Sky{' '}
+        </a>, but the average size of video games have exponentially grown as well. In fact, the developers of No Man's Sky{' '}
         tried to make their procedurally-generated game as small as they can. Look how well that turned out.
       </p>
       <p>

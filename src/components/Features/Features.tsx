@@ -158,7 +158,7 @@ const Features = () => (
                 of day.
               </p>
               <p>
-                Here's a solution: CSS-in-JS. I know it sounds counterintuitive,but hear me out. Designing React components is already{' '}
+                Here's a solution: CSS-in-JS. I know it sounds counterintuitive, but hear me out. Designing React components is already{' '}
                 a pain in the ass, especially with global styles. Thank fuck for{' '}
                 <a href="https://github.com/css-modules/css-modules" target="_blank">CSS Modules</a>, which breaks your CSS down to{' '}
                 components, makes them importable in your JavaScript, and is also pairable with SCSS. There's also a lot of other{' '}
