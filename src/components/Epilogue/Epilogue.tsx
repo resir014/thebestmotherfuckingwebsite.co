@@ -21,7 +21,8 @@ const Epilogue: React.SFC<{}> = () => (
         My point is, sure, page bloat matters to a degree, but it matters less than what it used to be. Sure, the JavaScript platform{' '}
         is exploding like diarrhea, and we've seen a lot of shitty apps written in JavaScript as of late. But just like many other{' '}
         <a href="https://secure.php.net/" target="_blank">shitty languages</a>, <strong>the language itself is hardly an{' '}
-        issue</strong>. Any bad developer can take any platform/ecosystem and shit on it.
+        issue</strong>. Any <a href="https://en.wikipedia.org/wiki/Lennart_Poettering" target="_blank">bad developer</a> can take any{' '}
+        platform/ecosystem and shit on it.
       </p>
       <blockquote>
         <p>&quot;Make Web Development Great Again? Actually, it's already great.&quot;</p>
