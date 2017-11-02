@@ -112,7 +112,7 @@ const Features = () => (
               don't let anybody fucking tell you otherwise.
             </p>
             <p>
-              But "page bloat", you say? Sure, back in ye olde Web 2.0 days, this was a problem{' '}
+              But "page bloat", you say? Sure, back in ye olde Web 2.0 days, this was a problem.{' '}
               But the thing is, on the modern web, page bloat has become much less of a fucking issue{' '}
               than whether or not we should put in pineapple on a fucking pizza<sup><small>[1]</small></sup>.{' '}
               Especially when many tools do all the heavylifting of performance work for your lazy ass.
