@@ -132,9 +132,8 @@ const Features = () => (
             <p>
               Strap yourselves in, motherfuckers, because I'm going to introduce you to the{' '}
               <a href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/" target="_blank">PRPL pattern</a>{' '}
-              ― the Pilates of web development. <strong>Push</strong> your important fucking resources of your initial route with{' '}
-              <code>&lt;link rel="preload"&gt;</code>, or <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank">HTTP/2</a>{' '}
-              if you're hipster as fuck. Only then you can <strong>render</strong>the initial route of your shitty-ass page. Inline{' '}
+              ― the Pilates of web development. <strong>Push</strong> your important resources of your initial route with{' '}
+              <code>&lt;link rel="preload"&gt;</code> or <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank">HTTP/2</a>{' '}. Only then you can <strong>render</strong> the initial route of your shitty-ass page. Inline{' '}
               your CSS too for good measure. If your CSS load blocks the rendering of your page, fuck you.
             </p>
             <p>
