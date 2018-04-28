@@ -12,7 +12,7 @@ const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, childre
     href={src}
     target="_blank"
     rel="noopener noreferrer"
-    title="Download free do whatever you want high-resolution photos from Rucksack Magazine"
+    title="Download free do whatever you want high-resolution photos from Unsplash"
   >
     <span>
       <img src={require('./img.svg')} />
