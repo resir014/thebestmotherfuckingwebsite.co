@@ -77,7 +77,7 @@ const Features = () => (
             <p>
               Look at how fast this shit loads. It's faster than you can even take a shit.{' '}
               This website is rendered with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a>,{' '}
-              a fawesome static-site generator powered by React which which shits out{' '}
+              a fawesome static-site generator powered by React which shits out{' '}
               pre-rendered static pages with extra optimization.
             </p>
             <p>
