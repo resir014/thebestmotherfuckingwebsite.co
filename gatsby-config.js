@@ -7,7 +7,7 @@ module.exports = {
       url: 'https://twitter.com/resir014',
       email: 'resir014@gmail.com'
     },
-    siteUrl: `https://thebestmotherfuckingwebsite.co`
+    siteUrl: 'https://thebestmotherfuckingwebsite.co'
   },
   plugins: [
     {
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: `https://thebestmotherfuckingwebsite.co`
+        siteUrl: 'https://thebestmotherfuckingwebsite.co'
       }
     },
     {
@@ -30,6 +30,7 @@ module.exports = {
       }
     },
     'gatsby-transformer-json',
+    'gatsby-plugin-react-next',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet'

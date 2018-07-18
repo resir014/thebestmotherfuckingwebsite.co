@@ -10,13 +10,13 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 interface HtmlProps {
-  body: any
-  preBodyComponents: any
-  postBodyComponents: any
-  headComponents: any
+  body: string
+  preBodyComponents: React.ReactNode[]
+  postBodyComponents: React.ReactNode[]
+  headComponents: React.ReactNode[]
 }
 
-module.exports = class HTML extends React.Component<HtmlProps, void> {
+module.exports = class HTML extends React.Component<HtmlProps> {
   render() {
     let css
     if (process.env.NODE_ENV === 'production') {

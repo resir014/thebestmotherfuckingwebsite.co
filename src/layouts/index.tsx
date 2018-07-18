@@ -7,8 +7,8 @@ import Masthead from '../components/Masthead'
 import 'typeface-rubik'
 import 'typeface-open-sans'
 
+import 'normalize.css'
 import '../styles/globals.scss'
-import 'prism-themes/themes/prism-atom-dark.css'
 
 interface WrapperProps {
   children: () => any
@@ -29,7 +29,7 @@ interface WrapperProps {
 }
 
 const TemplateWrapper: React.SFC<WrapperProps> = ({ children, data }) => (
-  <div>
+  <React.Fragment>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -42,10 +42,10 @@ const TemplateWrapper: React.SFC<WrapperProps> = ({ children, data }) => (
       ]}
     />
     <Masthead />
-    <main style={{ height: '100%', paddingTop: '60px' }}>
+    <main style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', paddingTop: '60px' }}>
       {children()}
     </main>
-  </div>
+  </React.Fragment>
 )
 
 export default TemplateWrapper

@@ -4,8 +4,6 @@ import Link from 'gatsby-link'
 import Container from '../Container'
 import FullScreenSection from '../FullScreenSection'
 
-import * as styles from './Epilogue.module.scss'
-
 const Epilogue: React.SFC<{}> = () => (
   <FullScreenSection name="epilogue">
     <Container>

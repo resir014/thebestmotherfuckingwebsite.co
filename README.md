@@ -8,6 +8,8 @@
 
 *"Yours is [the] opposite of what motherfucking sites are about."* - [@iamripu](https://twitter.com/iamripu/status/842614822004908035)
 
+*"This guy just doesn't get it."* - [Spensaur](https://forum.fork.sh/t/what-are-you-working-on-this-week-2018-01-15/213/30)
+
 ## Developing
 
 A nodejs >= 6.0.0 setup with [yarn](https://yarnpkg.com/) is recommended.

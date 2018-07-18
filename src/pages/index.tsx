@@ -11,31 +11,30 @@ import Container from '../components/Container'
 import FullScreenSection from '../components/FullScreenSection'
 import Footer from '../components/Footer'
 
-class IndexPage extends React.Component<{}, {}> {
-  constructor () {
-    super()
+class IndexPage extends React.Component {
+  constructor (props: {}) {
+    super(props)
   }
 
   public componentDidMount() {
+    // unregister previous events before re-registering
+    Events.scrollEvent.remove('begin')
+    Events.scrollEvent.remove('end')
+
     Events.scrollEvent.register('begin', (to, element) => {
       console.log('begin', arguments)
     })
 
-    Events.scrollEvent.register('end', function(to, element) {
+    Events.scrollEvent.register('end', (to, element) => {
       console.log('end', arguments)
     })
 
     scrollSpy.update()
   }
 
-  public componentWillMount() {
-    Events.scrollEvent.remove('begin')
-    Events.scrollEvent.remove('end')
-  }
-
   public render() {
     return (
-      <div style={{ height: '100%' }}>
+      <React.Fragment>
         <Helmet
           meta={[
             { property: 'og:url', content: 'https://thebestmotherfucking.co/index.html' },
@@ -46,7 +45,7 @@ class IndexPage extends React.Component<{}, {}> {
         <Features />
         <Epilogue />
         <Footer />
-      </div>
+      </React.Fragment>
     )
   }
 }

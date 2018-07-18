@@ -6,7 +6,7 @@ import UnsplashCreditBadge from '../UnsplashCreditBadge'
 
 import * as styles from './Intro.module.scss'
 
-const Intro: React.SFC<{}> = ({}) => (
+const Intro = () => (
   <div className={styles.intro}>
     <div className={styles.introInner}>
       <Container>
