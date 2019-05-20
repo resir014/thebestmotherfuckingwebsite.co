@@ -1,4 +1,4 @@
-@import "../../styles/variables";
+@import '../../styles/variables';
 
 .intro {
   display: flex;
@@ -12,14 +12,14 @@
   background-color: #000;
 
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     z-index: -1;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("./levi-bare-290789.jpg");
+    background: url('./levi-bare-290789.jpg');
     background-size: cover;
     opacity: 0.5;
   }
@@ -27,7 +27,6 @@
   .introInner {
     text-align: center;
     font-weight: 300;
-
 
     h1 {
       margin-top: 0;

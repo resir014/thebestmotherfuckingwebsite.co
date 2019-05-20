@@ -2,6 +2,7 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "boundary",
+  "editor.formatOnSave": true,
   "editor.rulers": [
     140
   ],

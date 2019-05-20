@@ -1,5 +1,5 @@
-@import "../../styles/variables";
-@import "../../styles/mixins";
+@import '../../styles/variables';
+@import '../../styles/mixins';
 
 .featureSection {
   display: flex;
@@ -14,7 +14,9 @@
   background-color: $body-bg-inverse;
   color: $body-color-inverse;
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     color: black;
   }
 
@@ -71,7 +73,7 @@
   .innerBox {
     margin: 0 auto;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .credit {

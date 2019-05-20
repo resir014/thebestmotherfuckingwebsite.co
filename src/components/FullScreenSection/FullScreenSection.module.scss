@@ -6,12 +6,14 @@
   justify-content: center;
   position: relative;
   z-index: 1;
-  margin: 0 0 1.5rem;
+  padding: 0 0 1.5rem;
 
   .fullScreenSectionInner {
     width: 100%;
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       margin-top: 0;
     }
   }

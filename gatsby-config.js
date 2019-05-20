@@ -30,7 +30,6 @@ module.exports = {
       }
     },
     'gatsby-transformer-json',
-    'gatsby-plugin-react-next',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet'
