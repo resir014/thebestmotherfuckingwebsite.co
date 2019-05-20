@@ -3,8 +3,7 @@ import Link from 'gatsby-link'
 
 import * as styles from './Container.module.scss'
 
-interface ContainerProps extends React.HTMLProps<HTMLDivElement> {
-}
+interface ContainerProps extends React.HTMLProps<HTMLDivElement> {}
 
 const Container: React.SFC<ContainerProps> = ({ style, children }) => (
   <div className={styles.container} style={style}>

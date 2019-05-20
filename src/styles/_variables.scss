@@ -18,11 +18,12 @@ $link-color-hover: $accent-hover;
 $border-color: lighten($body-bg, 15%);
 
 // Font stack
-$font-family-system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-$font-family-sans-serif: "Open Sans", $font-family-system-ui;
-$font-family-serif: "Lora", Georgia, "Times New Roman", Times, serif;
-$font-family-heading: "Rubik", $font-family-system-ui;
-$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-system-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+  'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+$font-family-sans-serif: 'Open Sans', $font-family-system-ui;
+$font-family-serif: 'Lora', Georgia, 'Times New Roman', Times, serif;
+$font-family-heading: 'Rubik', $font-family-system-ui;
+$font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
 // Media breakpoints
 // (NOTE: Always use @media (min-width) when using these variables.)

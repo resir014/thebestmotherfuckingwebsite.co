@@ -1,5 +1,10 @@
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
   font-family: $font-family-heading;
   font-weight: 500;
   color: $heading-color;
@@ -39,7 +44,9 @@ h3 {
   }
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-size: 1.125rem;
   line-height: 1.11111111;
 
@@ -56,7 +63,9 @@ strong {
   color: $heading-color;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -66,7 +75,7 @@ dt {
 }
 
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 hr {
@@ -90,10 +99,10 @@ abbr {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: $heading-color;
-  border-left: .25rem solid $border-color;
+  border-left: 0.25rem solid $border-color;
 
   p:last-child {
     margin-bottom: 0;

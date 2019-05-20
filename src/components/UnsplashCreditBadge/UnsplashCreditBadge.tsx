@@ -17,9 +17,7 @@ const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, childre
     <span>
       <img src={require('./img.svg')} />
     </span>
-    <span>
-      {children}
-    </span>
+    <span>{children}</span>
   </a>
 )
 

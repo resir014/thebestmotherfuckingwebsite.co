@@ -10,9 +10,7 @@ interface FullScreenSectionProps {
 
 const FullScreenSection: React.SFC<FullScreenSectionProps> = ({ name, children }) => (
   <Element name={name} className={styles.fullScreenSection}>
-    <div className={styles.fullScreenSectionInner}>
-      {children}
-    </div>
+    <div className={styles.fullScreenSectionInner}>{children}</div>
   </Element>
 )
 

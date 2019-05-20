@@ -12,16 +12,22 @@ const Footer = () => (
       <hr className={styles.footerRule} />
       <p>
         <small>
-          Inspired by{' '}
-          <a href="http://motherfuckingwebsite.com/">these</a>{' '}
+          Inspired by <a href="http://motherfuckingwebsite.com/">these</a>{' '}
           <a href="http://bettermotherfuckingwebsite.com/">motherfucking</a>{' '}
           <a href="http://evenbettermotherfucking.website/">websites</a>.
         </small>
       </p>
       <p>
         <small>
-          Images from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.{' '}
-          Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>.
+          Images from{' '}
+          <a href="https://unsplash.com/" target="_blank">
+            Unsplash
+          </a>
+          . Built with{' '}
+          <a href="https://www.gatsbyjs.org/" target="_blank">
+            Gatsby
+          </a>
+          .
         </small>
       </p>
     </Container>
