@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "name": "thebestmotherfuckingwebsite.co",
+  "name": "tbmfw-co",
+  "alias": "thebestmotherfuckingwebsite.co",
   "builds": [
     { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "public" } }
   ]
