@@ -1,30 +1,44 @@
 import * as React from 'react'
 
-import Container from '../Container'
-import Row from '../Row'
-import Col from '../Col'
+import { Container } from '../Container'
 
-import * as styles from './Footer.module.scss'
+import styles from './Footer.module.scss'
 
-const Footer = () => (
+export const Footer = () => (
   <footer className={styles.footer}>
     <Container>
       <hr className={styles.footerRule} />
       <p>
         <small>
-          Inspired by <a href="http://motherfuckingwebsite.com/">these</a>{' '}
-          <a href="http://bettermotherfuckingwebsite.com/">motherfucking</a>{' '}
-          <a href="http://evenbettermotherfucking.website/">websites</a>.
+          Inspired by{' '}
+          <a href="http://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">
+            these
+          </a>{' '}
+          <a
+            href="http://bettermotherfuckingwebsite.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            motherfucking
+          </a>{' '}
+          <a
+            href="http://evenbettermotherfucking.website/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            websites
+          </a>
+          .
         </small>
       </p>
       <p>
         <small>
           Images from{' '}
-          <a href="https://unsplash.com/" target="_blank">
+          <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
             Unsplash
           </a>
           . Built with{' '}
-          <a href="https://www.gatsbyjs.org/" target="_blank">
+          <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
             Gatsby
           </a>
           .
@@ -33,5 +47,3 @@ const Footer = () => (
     </Container>
   </footer>
 )
-
-export default Footer

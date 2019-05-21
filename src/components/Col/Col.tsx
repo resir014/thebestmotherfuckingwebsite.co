@@ -1,13 +1,9 @@
 import * as React from 'react'
 
-import * as styles from './Col.module.scss'
+import styles from './Col.module.scss'
 
-interface ColProps extends React.HTMLProps<HTMLDivElement> {}
-
-const Col: React.SFC<ColProps> = ({ style, children }) => (
-  <div className={styles.col} style={style}>
+export const Col: React.SFC<React.HTMLProps<HTMLDivElement>> = ({ style, children, ...rest }) => (
+  <div className={styles.col} style={style} {...rest}>
     {children}
   </div>
 )
-
-export default Col

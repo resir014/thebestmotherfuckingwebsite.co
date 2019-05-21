@@ -1,18 +1,53 @@
-// graphql query strings
-declare const graphql: (query: TemplateStringsArray) => void
-
-interface CSSModule {
-  [className: string]: string
+declare module '*.bmp' {
+  const src: string
+  export default src
 }
 
-// type shims for CSS modules
+declare module '*.gif' {
+  const src: string
+  export default src
+}
 
-declare module '*.module.scss' {
-  const cssModule: CSSModule
-  export = cssModule
+declare module '*.jpg' {
+  const src: string
+  export default src
+}
+
+declare module '*.jpeg' {
+  const src: string
+  export default src
+}
+
+declare module '*.png' {
+  const src: string
+  export default src
+}
+
+declare module '*.webp' {
+  const src: string
+  export default src
+}
+
+declare module '*.svg' {
+  import * as React from 'react'
+
+  export const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement>>
+
+  const src: string
+  export default src
 }
 
 declare module '*.module.css' {
-  const cssModule: CSSModule
-  export = cssModule
+  const classes: { [key: string]: string }
+  export default classes
+}
+
+declare module '*.module.scss' {
+  const classes: { [key: string]: string }
+  export default classes
+}
+
+declare module '*.module.sass' {
+  const classes: { [key: string]: string }
+  export default classes
 }

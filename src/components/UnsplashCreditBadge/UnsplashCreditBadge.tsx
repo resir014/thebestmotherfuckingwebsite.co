@@ -1,24 +1,25 @@
 import * as React from 'react'
 
-import * as styles from './UnsplashCreditBadge.module.scss'
+import styles from './UnsplashCreditBadge.module.scss'
+
+import Image from './img.svg'
 
 interface UnsplashCreditBadgeProps {
   src: string
+  author: string
 }
 
-const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, children }) => (
+export const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, author }) => (
   <a
     className={styles.unsplashCreditBadge}
     href={src}
     target="_blank"
     rel="noopener noreferrer"
-    title="Download free do whatever you want high-resolution photos from Unsplash"
+    title={`Download free do whatever you want high-resolution photos by ${author} from Unsplash`}
   >
     <span>
-      <img src={require('./img.svg')} />
+      <img alt="Visit Page" src={Image} />
     </span>
-    <span>{children}</span>
+    <span>{author}</span>
   </a>
 )
-
-export default UnsplashCreditBadge

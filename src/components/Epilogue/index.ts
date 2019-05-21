@@ -1,1 +1,1 @@
-export { default } from './Epilogue'
+export * from './Epilogue'

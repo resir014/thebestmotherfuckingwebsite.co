@@ -1,1 +1,1 @@
-export { default } from './UnsplashCreditBadge'
+export * from './UnsplashCreditBadge'
