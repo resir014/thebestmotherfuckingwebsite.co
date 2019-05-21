@@ -2,7 +2,7 @@ import * as React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import Helmet from 'react-helmet'
 
-import Masthead from '../components/Masthead'
+import { Masthead } from '../components/Masthead'
 
 import 'typeface-rubik'
 import 'typeface-open-sans'
