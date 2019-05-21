@@ -1,6 +1,6 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
 
 import { Container } from '../components/Container'
 import { FullScreenSection } from '../components/FullScreenSection'
@@ -9,9 +9,7 @@ import IndexLayout from '../layouts'
 const NotFoundPage = () => (
   <IndexLayout>
     <div style={{ height: '100%' }}>
-      <Helmet
-        meta={[{ property: 'og:url', content: 'https://thebestmotherfucking.co/404.html' }]}
-      />
+      <Helmet meta={[{ property: 'og:url', content: 'https://thebestmotherfucking.co/404.html' }]} />
       <FullScreenSection name="404">
         <Container>
           <h1>404 - Page not found.</h1>
