@@ -11,17 +11,25 @@ const Epilogue: React.SFC<{}> = () => (
         AND YES, THIS WHOLE THING IS <em>STILL</em> SATIRE, YOU DIPSHIT.
       </h1>
       <p>
-        I'm gonna go out on a limb and end it on a positive note. Yes, it's true that the{' '}
+        I'm gonna end this motherfucking rant with some positivity. My point is, yes, it's true that
+        the{' '}
         <a href="https://www.wired.com/2016/04/average-webpage-now-size-original-doom/">
           average webpage is now the size of the original DOOM
         </a>
-        , but the average size of video games have exponentially grown as well. In fact, the
-        developers of No Man's Sky tried to make their procedurally-generated game as small as they
-        can. Look how well that turned out.
+        . Sure, websites are getting more and more bloated. But all of these matter less than what
+        they used to be. In fact, the developers of No Man's Sky tried to make their
+        procedurally-generated game as small as they can. Look how well that turned out.
       </p>
       <p>
-        My point is, sure, page bloat matters to a degree, but it matters less than what it used to
-        be. Sure, the JavaScript platform is exploding like diarrhea, and we've seen a lot of shitty
+        This whole increase in size is natural, but also, recent innovation in web development has
+        made it easier to make your codebase less shit. When one door closes, another one opens
+        wide. What matters is how can you optimize for that sweet, sweet Lighthouse score, that
+        sweet, sweet first meaningful paint (FMP) time. Be it by code splitting, preloading your
+        essentials, lazyloading your shit, or whatever kind of black magic you came up with. I don't
+        care, it's your app. I don't make the rules.
+      </p>
+      <p>
+        And sure, the JavaScript platform is exploding like diarrhea, and we've seen a lot of shitty
         apps written in JavaScript as of late. But just like many other{' '}
         <a href="https://secure.php.net/" target="_blank">
           shitty languages
@@ -30,11 +38,20 @@ const Epilogue: React.SFC<{}> = () => (
         <a href="https://en.wikipedia.org/wiki/Lennart_Poettering" target="_blank">
           bad developer
         </a>{' '}
-        can take any platform/ecosystem and shit on it.
+        can take any platform/ecosystem and shit on it. But amongst the dark alleyways filled with
+        piles of shit, there's still a majority of people trying their hardest to make things better
+        for everyone.
       </p>
       <blockquote>
-        <p>&quot;Make Web Development Great Again? Actually, it's already great.&quot;</p>
-        <cite>&mdash; Random American</cite>
+        <p>
+          &quot;Hey you know the best way to write apps? The way that ends up with an app.&quot;
+        </p>
+        <cite>
+          &mdash;{' '}
+          <a href="https://twitter.com/ken_wheeler/status/1022443093679845377" target="_blank">
+            Ken Fucking Wheeler
+          </a>
+        </cite>
       </blockquote>
       <p>
         Anyways, this website is made by <a href="https://resir014.xyz/">me</a>, and the domain name

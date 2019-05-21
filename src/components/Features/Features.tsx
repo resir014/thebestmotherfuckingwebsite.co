@@ -23,7 +23,7 @@ const Features = () => (
               shit. And not to mention that it still has all the glory of a perfect-ass website:
             </p>
             <ul>
-              <li>Shit loads fast, even with bloody React thrown into the mix.</li>
+              <li>Shit loads fast, even with all this fancystuffs thrown into the mix.</li>
               <li>
                 <em>Still</em> fits on all of your shitty screens.
               </li>
@@ -36,9 +36,6 @@ const Features = () => (
                   <small>[1]</small>
                 </sup>
                 .
-              </li>
-              <li>
-                Uses some <em>actual</em> design elements, to further bring the point home.
               </li>
               <li>
                 Is entirely{' '}
@@ -77,8 +74,9 @@ const Features = () => (
             <h2>MODERN JAVASCRIPT WITHOUT THE HEADACHE.</h2>
             <p>
               The JavaScript ecosystem is exploding like uncontained diarrhea, and in the middle of
-              that overall page size on the Web also increased. So you might think that websites
-              will load slower than ever.
+              that, the overall page size on the Web also increased. So you might think that
+              websites will load slower than ever, shit will break, and we're inching one step
+              closer to the heat death of the universe.
             </p>
             <p>
               <strong>Wrong, motherfucker</strong>.
@@ -90,16 +88,11 @@ const Features = () => (
                 Gatsby.js
               </a>
               , a fawesome static-site generator powered by React which shits out pre-rendered
-              static pages with extra optimization.
+              static pages with extra optimization built in.
             </p>
             <p>
-              And to make things better, the source code is written with static typing, so that the
-              computer shames your shitty coding skills into fixing the inherent type errors in your
-              fucking codebase. I use{' '}
-              <a href="http://www.typescriptlang.org/" target="_blank">
-                TypeScript
-              </a>
-              , it's fucking awesome.
+              Even better than that, despite all of this newfangled ECMABabelFlowReasonTypeScript
+              magic, you <em>can</em> still make things less suck. Strap yourselves in, folks.
             </p>
           </div>
         </Col>
@@ -130,8 +123,13 @@ const Features = () => (
               <sup>
                 <small>[1]</small>
               </sup>
-              . Especially when many tools do all the heavylifting of performance work for your lazy
-              ass.
+              .
+            </p>
+            <p>
+              Especially when newfangled tools and techniques that makes it easier to optimize for
+              that sweet, sweet Lighthouse score, that sweet, sweet first meaningful paint (FMP)
+              time. Here's the key to all of these black magic:{' '}
+              <strong>progressive enhancement</strong>.
             </p>
             <p>
               <small>
@@ -144,27 +142,36 @@ const Features = () => (
         <Col style={{ position: 'relative' }}>
           <div className={classnames(styles.featureBox, styles.alternate)}>
             <p>
-              Strap yourselves in, motherfuckers, because I'm going to introduce you to the{' '}
+              Even when you got a shitload of scripts and fonts, you can wrap all the critical ones
+              inside a <code>&lt;link rel="preload"&gt;</code> tag. Thanks to{' '}
+              <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank">
+                HTTP/2
+              </a>
+              , it will load all of them in parallel. Anything else, like below-the-fold images and
+              scripts for other pages, can be pre-cached or lazyloaded.
+            </p>
+            <p>
+              If your site has got a bunch of CSS shoved into it,{' '}
+              <strong>only load what's critical for the page</strong>, and inline them for good
+              measure. If your CSS load blocks the rendering of your page, fuck you.
+            </p>
+            <p>
+              And should you ever get lost, the experts have been there and done that. Google has
+              their own{' '}
               <a
                 href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/"
                 target="_blank"
               >
-                PRPL pattern
+                PRPL
               </a>{' '}
-              ― the Pilates of web development. <strong>Push</strong> your important resources of
-              your initial route with <code>&lt;link rel="preload"&gt;</code> or{' '}
-              <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank">
-                HTTP/2
+              method, and the Smashing Magazine has their own{' '}
+              <a
+                href="https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/"
+                target="_blank"
+              >
+                performance checklist
               </a>
-              . Only then you can <strong>render</strong> the initial route of your shitty-ass page.
-              Inline your CSS too for good measure. If your CSS load blocks the rendering of your
-              page, fuck you.
-            </p>
-            <p>
-              Of course, chances are, your motherfucking website contains other child routes, like
-              your shitty <code>/blog</code>, so <strong>pre-cache</strong> those motherfuckers.
-              Then <strong>lazy-load</strong> them, meaning only load them when needed, and not
-              during the initial page load.
+              , both of which are worth checking out.
             </p>
           </div>
         </Col>
@@ -184,14 +191,13 @@ const Features = () => (
               </p>
               <p>
                 Here's a solution: CSS-in-JS. I know it sounds counterintuitive, but hear me out.
-                Designing React components is already a pain in the ass, especially with global
-                styles. Thank fuck for{' '}
+                Designing through CSS is already a pain in the ass, especially with globally-scoped
+                classes that will be happy to fuck you over when your CSS gets large. Thank fuck for{' '}
                 <a href="https://github.com/css-modules/css-modules" target="_blank">
                   CSS Modules
                 </a>
-                , which breaks your CSS down to components, makes them importable in your
-                JavaScript, and is also pairable with SCSS. There's also a lot of other options,
-                like{' '}
+                , which takes your existing CSS and solves all of the scoping issues through some JS
+                magic. There's also a lot of other options, like{' '}
                 <a href="https://github.com/styled-components/styled-components" target="_blank">
                   Styled Components
                 </a>
@@ -206,10 +212,10 @@ const Features = () => (
                 , etc.
               </p>
               <p>
-                So here you go, all the goodness of React styling, rolled into this very page.
-                Beautiful typography. And alignment. Also, light-coloured backgrounds are for
-                losers. I like it dark. It's edgy as fuck. Plus, it doesn't hurt your fucking eyes
-                when you're looking at this beauty for 16 hours straight.
+                So here you go, all the goodness of CSS-in-JS, rolled into this very page. Beautiful
+                typography. And alignment. Also, light-coloured backgrounds are for losers. I like
+                it dark. It's edgy as fuck. Plus, it doesn't hurt your fucking eyes when you're
+                looking at this beauty for 16 hours straight.
               </p>
             </div>
           </Col>
