@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-import Container from '../Container'
-import FullScreenSection from '../FullScreenSection'
+import { Container } from '../Container'
+import { FullScreenSection } from '../FullScreenSection'
 
-const About = () => (
+export const About = () => (
   <FullScreenSection name="about">
     <Container>
       <h1>LIKE SERIOUSLY, DOES IT EVEN FUCKING MATTER?</h1>
@@ -41,5 +41,3 @@ const About = () => (
     </Container>
   </FullScreenSection>
 )
-
-export default About

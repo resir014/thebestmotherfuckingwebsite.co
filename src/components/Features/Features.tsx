@@ -1,18 +1,18 @@
 import * as React from 'react'
-import * as classnames from 'classnames'
+import classnames from 'classnames'
 
-import Container from '../Container'
-import Row from '../Row'
-import Col from '../Col'
-import FullScreenSection from '../FullScreenSection'
-import UnsplashCreditBadge from '../UnsplashCreditBadge'
+import { Container } from '../Container'
+import { Row } from '../Row'
+import { Col } from '../Col'
+import { FullScreenSection } from '../FullScreenSection'
+import { UnsplashCreditBadge } from '../UnsplashCreditBadge'
 
 import styles from './Features.module.scss'
 
 import RucksackMagazine from './rucksack-magazine-386319.jpg'
 import RyanSearle from './ryan-searle-345035.jpg'
 
-const Features = () => (
+export const Features = () => (
   <FullScreenSection name="features">
     <Container>
       <Row style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
@@ -253,5 +253,3 @@ const Features = () => (
     </div>
   </FullScreenSection>
 )
-
-export default Features

@@ -9,7 +9,7 @@ interface UnsplashCreditBadgeProps {
   author: string
 }
 
-const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, author }) => (
+export const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, author }) => (
   <a
     className={styles.unsplashCreditBadge}
     href={src}
@@ -23,5 +23,3 @@ const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, author 
     <span>{author}</span>
   </a>
 )
-
-export default UnsplashCreditBadge

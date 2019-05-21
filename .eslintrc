@@ -12,6 +12,7 @@
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "import/prefer-default-export": "off",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"

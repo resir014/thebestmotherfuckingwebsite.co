@@ -2,8 +2,8 @@
 import * as React from 'react'
 import { animateScroll } from 'react-scroll'
 
-import Container from '../Container'
-import MastheadNavLink from './MastheadNavLink'
+import { Container } from '../Container'
+import { MastheadNavLink } from './MastheadNavLink'
 
 import styles from './Masthead.module.scss'
 
@@ -11,7 +11,7 @@ const scrollToTop = () => {
   animateScroll.scrollToTop()
 }
 
-const Masthead: React.SFC = () => (
+export const Masthead: React.SFC = () => (
   <header className={styles.masthead}>
     <Container>
       <div className={styles.mastheadInner}>
@@ -29,5 +29,3 @@ const Masthead: React.SFC = () => (
     </Container>
   </header>
 )
-
-export default Masthead

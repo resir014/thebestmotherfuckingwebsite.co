@@ -7,7 +7,7 @@ interface MastheadLinkProps extends React.HTMLProps<HTMLLinkElement> {
   to: string
 }
 
-const MastheadLink: React.SFC<MastheadLinkProps> = ({ to, children }) => (
+export const MastheadNavLink: React.SFC<MastheadLinkProps> = ({ to, children }) => (
   <ScrollLink
     className={styles.mastheadNavLink}
     activeClass={styles.active}
@@ -19,5 +19,3 @@ const MastheadLink: React.SFC<MastheadLinkProps> = ({ to, children }) => (
     {children}
   </ScrollLink>
 )
-
-export default MastheadLink

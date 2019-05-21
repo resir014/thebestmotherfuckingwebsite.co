@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-import Container from '../Container'
-import FullScreenSection from '../FullScreenSection'
+import { Container } from '../Container'
+import { FullScreenSection } from '../FullScreenSection'
 
-const Epilogue: React.SFC = () => (
+export const Epilogue: React.SFC = () => (
   <FullScreenSection name="epilogue">
     <Container>
       <h1>
@@ -86,5 +86,3 @@ const Epilogue: React.SFC = () => (
     </Container>
   </FullScreenSection>
 )
-
-export default Epilogue

@@ -1,12 +1,12 @@
 import * as React from 'react'
 import { Link as ScrollLink } from 'react-scroll'
 
-import Container from '../Container'
-import UnsplashCreditBadge from '../UnsplashCreditBadge'
+import { Container } from '../Container'
+import { UnsplashCreditBadge } from '../UnsplashCreditBadge'
 
 import styles from './Intro.module.scss'
 
-const Intro = () => (
+export const Intro = () => (
   <div className={styles.intro}>
     <div className={styles.introInner}>
       <Container>
@@ -25,5 +25,3 @@ const Intro = () => (
     </div>
   </div>
 )
-
-export default Intro

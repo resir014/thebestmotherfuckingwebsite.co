@@ -1,1 +1,1 @@
-export { default } from './MastheadNavLink'
+export * from './MastheadNavLink'
