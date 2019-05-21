@@ -16,9 +16,9 @@ export const Masthead: React.SFC = () => (
     <Container>
       <div className={styles.mastheadInner}>
         <div className={styles.mastheadTitle}>
-          <a href="#" onClick={scrollToTop}>
+          <button type="button" onClick={scrollToTop}>
             <span className={styles.brand}>■</span> TBMFW
-          </a>
+          </button>
         </div>
         <nav className={styles.mastheadNav}>
           <MastheadNavLink to="about">About</MastheadNavLink>

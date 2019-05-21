@@ -11,8 +11,14 @@
   font-family: $font-family-system-ui;
   color: #d8dee9;
 
-  a {
+  a,
+  button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
     color: inherit;
+    outline: none;
 
     &:hover,
     &:focus {
@@ -34,9 +40,10 @@
     align-items: center;
     color: #42dca3;
 
-    a {
+    button {
       display: inline-block;
       font-weight: 600;
+      height: 60px;
 
       &:hover {
         cursor: pointer;
