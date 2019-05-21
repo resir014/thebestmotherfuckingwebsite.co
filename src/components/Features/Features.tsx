@@ -61,9 +61,10 @@ const Features = () => (
           <div className={styles.featureImageBox}>
             <img src={require('./rucksack-magazine-386319.jpg')} />
             <div className={styles.credit}>
-              <UnsplashCreditBadge src="https://unsplash.com/@rucksackmag?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">
-                Rucksack Magazine
-              </UnsplashCreditBadge>
+              <UnsplashCreditBadge
+                src="https://unsplash.com/@rucksackmag?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                author="Rucksack Magazine"
+              />
             </div>
           </div>
         </Col>
@@ -100,9 +101,10 @@ const Features = () => (
           <div className={styles.featureImageBox}>
             <img src={require('./ryan-searle-345035.jpg')} />
             <div className={styles.credit}>
-              <UnsplashCreditBadge src="https://unsplash.com/@ryansearle?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">
-                Ryan Searle
-              </UnsplashCreditBadge>
+              <UnsplashCreditBadge
+                src="https://unsplash.com/@ryansearle?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                author="Ryan Searle"
+              />
             </div>
           </div>
         </Col>
@@ -222,9 +224,10 @@ const Features = () => (
         </Row>
       </Container>
       <div className={styles.credit}>
-        <UnsplashCreditBadge src="https://unsplash.com/@stairhopper?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">
-          Alex Holyoake
-        </UnsplashCreditBadge>
+        <UnsplashCreditBadge
+          src="https://unsplash.com/@stairhopper?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+          author="Alex Holyoake"
+        />
       </div>
     </div>
   </FullScreenSection>

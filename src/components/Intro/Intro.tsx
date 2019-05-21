@@ -18,9 +18,10 @@ const Intro = () => (
       &#9660; scroll thingy &#9660;
     </ScrollLink>
     <div className={styles.credit}>
-      <UnsplashCreditBadge src="https://unsplash.com/@levibare1?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">
-        Levi Bare
-      </UnsplashCreditBadge>
+      <UnsplashCreditBadge
+        src="https://unsplash.com/@levibare1?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+        author="Levi Bare"
+      />
     </div>
   </div>
 )
