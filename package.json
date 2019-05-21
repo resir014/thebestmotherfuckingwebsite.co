@@ -13,13 +13,13 @@
     "build": "gatsby build",
     "clean": "rimraf public",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,scss}\"",
     "format:gatsby": "prettier --write \"gatsby-*.js\"",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "now-build": "npm run build",
+    "now-build": "yarn build",
     "now-dev": "gatsby develop -p $PORT",
-    "start": "npm run develop",
+    "start": "yarn dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
