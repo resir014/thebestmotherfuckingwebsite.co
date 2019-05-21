@@ -17,10 +17,11 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css,scss}\"",
     "format:gatsby": "prettier --write \"gatsby-*.js\"",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "now-build": "yarn build",
+    "now-build": "npm run build",
     "now-dev": "gatsby develop -p $PORT",
-    "start": "yarn dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run dev",
+    "type-check": "tsc",
+    "test": "npm run type-check"
   },
   "dependencies": {
     "@types/classnames": "^2.2.7",
