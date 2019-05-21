@@ -49,7 +49,7 @@ const Features = () => (
                 tipping point. Unless you're one of those weirdos still using Windows fucking XP,
                 then every shitty browser there is ― Edge, Safari, even Internet fucking Explorer ―
                 has implemented the{' '}
-                <a href="https://caniuse.com/" target="_blank">
+                <a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">
                   core bits of HTML5
                 </a>
                 . No fucking excuses.
@@ -85,7 +85,7 @@ const Features = () => (
             <p>
               Look at how fast this shit loads. It's faster than you can even take a shit. This
               website is rendered with{' '}
-              <a href="https://www.gatsbyjs.org/" target="_blank">
+              <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
                 Gatsby.js
               </a>
               , a fawesome static-site generator powered by React which shits out pre-rendered
@@ -146,7 +146,11 @@ const Features = () => (
             <p>
               Even when you got a shitload of scripts and fonts, you can wrap all the critical ones
               inside a <code>&lt;link rel="preload"&gt;</code> tag. Thanks to{' '}
-              <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank">
+              <a
+                href="https://en.wikipedia.org/wiki/HTTP/2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 HTTP/2
               </a>
               , it will load all of them in parallel. Anything else, like below-the-fold images and
@@ -163,6 +167,7 @@ const Features = () => (
               <a
                 href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 PRPL
               </a>{' '}
@@ -170,6 +175,7 @@ const Features = () => (
               <a
                 href="https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 performance checklist
               </a>
@@ -195,20 +201,32 @@ const Features = () => (
                 Here's a solution: CSS-in-JS. I know it sounds counterintuitive, but hear me out.
                 Designing through CSS is already a pain in the ass, especially with globally-scoped
                 classes that will be happy to fuck you over when your CSS gets large. Thank fuck for{' '}
-                <a href="https://github.com/css-modules/css-modules" target="_blank">
+                <a
+                  href="https://github.com/css-modules/css-modules"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   CSS Modules
                 </a>
                 , which takes your existing CSS and solves all of the scoping issues through some JS
                 magic. There's also a lot of other options, like{' '}
-                <a href="https://github.com/styled-components/styled-components" target="_blank">
+                <a
+                  href="https://github.com/styled-components/styled-components"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Styled Components
                 </a>
                 ,{' '}
-                <a href="https://emotion.sh/" target="_blank">
+                <a href="https://emotion.sh/" target="_blank" rel="noopener noreferrer">
                   Emotion
                 </a>
                 ,{' '}
-                <a href="https://github.com/paypal/glamorous" target="_blank">
+                <a
+                  href="https://github.com/paypal/glamorous"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   glamorous
                 </a>
                 , etc.

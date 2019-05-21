@@ -13,7 +13,11 @@ const Epilogue: React.SFC<{}> = () => (
       <p>
         I'm gonna end this motherfucking rant with some positivity. My point is, yes, it's true that
         the{' '}
-        <a href="https://www.wired.com/2016/04/average-webpage-now-size-original-doom/">
+        <a
+          href="https://www.wired.com/2016/04/average-webpage-now-size-original-doom/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           average webpage is now the size of the original DOOM
         </a>
         . Sure, websites are getting more and more bloated. But all of these matter less than what
@@ -31,11 +35,15 @@ const Epilogue: React.SFC<{}> = () => (
       <p>
         And sure, the JavaScript platform is exploding like diarrhea, and we've seen a lot of shitty
         apps written in JavaScript as of late. But just like many other{' '}
-        <a href="https://secure.php.net/" target="_blank">
+        <a href="https://secure.php.net/" target="_blank" rel="noopener noreferrer">
           shitty languages
         </a>
         , <strong>the language itself is hardly an issue</strong>. Any{' '}
-        <a href="https://en.wikipedia.org/wiki/Lennart_Poettering" target="_blank">
+        <a
+          href="https://en.wikipedia.org/wiki/Lennart_Poettering"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           bad developer
         </a>{' '}
         can take any platform/ecosystem and shit on it. But amongst the dark alleyways filled with
@@ -48,16 +56,33 @@ const Epilogue: React.SFC<{}> = () => (
         </p>
         <cite>
           &mdash;{' '}
-          <a href="https://twitter.com/ken_wheeler/status/1022443093679845377" target="_blank">
+          <a
+            href="https://twitter.com/ken_wheeler/status/1022443093679845377"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Ken Fucking Wheeler
           </a>
         </cite>
       </blockquote>
       <p>
-        Anyways, this website is made by <a href="https://resir014.xyz/">me</a>, and the domain name
-        is generously donated by <a href="https://twitter.com/A7_145">him</a>. It's entirely
-        open-source and available on{' '}
-        <a href="https://github.com/resir014/thebestmotherfuckingwebsite.co">GitHub</a>.
+        Anyways, this website is made by{' '}
+        <a href="https://resir014.xyz/" target="_blank" rel="noopener noreferrer">
+          me
+        </a>
+        , and the domain name is generously donated by{' '}
+        <a href="https://twitter.com/A7_145" target="_blank" rel="noopener noreferrer">
+          him
+        </a>
+        . It's entirely open-source and available on{' '}
+        <a
+          href="https://github.com/resir014/thebestmotherfuckingwebsite.co"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        .
       </p>
     </Container>
   </FullScreenSection>

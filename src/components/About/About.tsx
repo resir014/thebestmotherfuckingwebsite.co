@@ -10,15 +10,21 @@ const About = () => (
       <h1>LIKE SERIOUSLY, DOES IT EVEN FUCKING MATTER?</h1>
       <p>
         If you look at the granddaddies of motherfucking websites,{' '}
-        <a href="http://motherfuckingwebsite.com">every</a>{' '}
-        <a href="http://bettermotherfuckingwebsite.com">single</a>{' '}
-        <a href="http://evenbettermotherfucking.website">one</a> of them say that websites are
-        bloated, and therefore need to look fugly to stay lightweight.{' '}
+        <a href="http://motherfuckingwebsite.com" target="_blank" rel="noopener noreferrer">
+          every
+        </a>{' '}
+        <a href="http://bettermotherfuckingwebsite.com" target="_blank" rel="noopener noreferrer">
+          single
+        </a>{' '}
+        <a href="http://evenbettermotherfucking.website" target="_blank" rel="noopener noreferrer">
+          one
+        </a>{' '}
+        of them say that websites are bloated, and therefore need to look fugly to stay lightweight.{' '}
         <strong>What a stupid idea.</strong>
       </p>
       <p>
         You guys fucking complain about page load while trying to load YouTube from your{' '}
-        <a href="https://fiber.google.com/" target="_blank">
+        <a href="https://fiber.google.com/" target="_blank" rel="noopener noreferrer">
           Google Fiber
         </a>{' '}
         whereas I, a third-world country peasant, would cry tears of actual joy if true broadband
