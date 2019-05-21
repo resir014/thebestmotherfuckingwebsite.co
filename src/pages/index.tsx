@@ -11,9 +11,7 @@ import IndexLayout from '../layouts'
 const IndexPage: React.FC = () => {
   return (
     <IndexLayout>
-      <Helmet
-        meta={[{ property: 'og:url', content: 'https://thebestmotherfucking.co/index.html' }]}
-      />
+      <Helmet meta={[{ property: 'og:url', content: 'https://thebestmotherfucking.co/index.html' }]} />
       <Intro />
       <About />
       <Features />
