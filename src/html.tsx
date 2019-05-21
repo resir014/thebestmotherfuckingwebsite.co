@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/html-has-lang */
+/* eslint-disable react/no-danger */
+
 import * as React from 'react'
 
 interface HtmlProps {
@@ -9,9 +12,16 @@ interface HtmlProps {
   headComponents: React.ReactNodeArray
 }
 
-export default function HTML(props: HtmlProps) {
+export default function HTML({
+  htmlAttributes,
+  headComponents,
+  bodyAttributes,
+  preBodyComponents,
+  body,
+  postBodyComponents
+}: HtmlProps) {
   return (
-    <html {...props.htmlAttributes}>
+    <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -26,15 +36,15 @@ export default function HTML(props: HtmlProps) {
           href="https://thebestmotherfuckingwebsite.co/apple-touch-icon.png"
         />
         <link rel="shortcut icon" href="/favicon.ico" />
-        {props.headComponents}
+        {headComponents}
       </head>
-      <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
+      <body {...bodyAttributes}>
+        {preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
         </noscript>
-        <div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: props.body }} />
-        {props.postBodyComponents}
+        <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
+        {postBodyComponents}
       </body>
     </html>
   )

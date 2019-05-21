@@ -5,10 +5,9 @@
     "prettier",
     "prettier/@typescript-eslint",
     "prettier/react",
-    "plugin:prettier/recommended",
-    "react-hooks"
+    "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "react-hooks"],
   "rules": {
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",

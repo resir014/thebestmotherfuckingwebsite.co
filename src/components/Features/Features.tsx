@@ -1,6 +1,4 @@
 import * as React from 'react'
-import Link from 'gatsby-link'
-import { Element } from 'react-scroll'
 import * as classnames from 'classnames'
 
 import Container from '../Container'
@@ -9,7 +7,10 @@ import Col from '../Col'
 import FullScreenSection from '../FullScreenSection'
 import UnsplashCreditBadge from '../UnsplashCreditBadge'
 
-import * as styles from './Features.module.scss'
+import styles from './Features.module.scss'
+
+import RucksackMagazine from './rucksack-magazine-386319.jpg'
+import RyanSearle from './ryan-searle-345035.jpg'
 
 const Features = () => (
   <FullScreenSection name="features">
@@ -19,7 +20,7 @@ const Features = () => (
           <div className={classnames(styles.featureBox, styles.guessWhat)}>
             <h2 style={{ color: 'black' }}>WELL, GUESS WHAT:</h2>
             <p>
-              Look at this fucking beauty. It's sleek. It loads faster than you can even take a
+              Look at this fucking beauty. It&apos;s sleek. It loads faster than you can even take a
               shit. And not to mention that it still has all the glory of a perfect-ass website:
             </p>
             <ul>
@@ -31,7 +32,8 @@ const Features = () => (
                 <em>Still</em> looks the same in all your shitty browsers.
               </li>
               <li>
-                The motherfucker's <em>still</em> accessible to every asshole that visits your site
+                The motherfucker&apos;s <em>still</em> accessible to every asshole that visits your
+                site
                 <sup>
                   <small>[1]</small>
                 </sup>
@@ -46,9 +48,9 @@ const Features = () => (
             <p>
               <small>
                 <sup>[1]</sup> Okay, listen up here. HTML5 adoption in browsers has reached the
-                tipping point. Unless you're one of those weirdos still using Windows fucking XP,
-                then every shitty browser there is ― Edge, Safari, even Internet fucking Explorer ―
-                has implemented the{' '}
+                tipping point. Unless you&apos;re one of those weirdos still using Windows fucking
+                XP, then every shitty browser there is ― Edge, Safari, even Internet fucking
+                Explorer ― has implemented the{' '}
                 <a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">
                   core bits of HTML5
                 </a>
@@ -59,7 +61,7 @@ const Features = () => (
         </Col>
         <Col>
           <div className={styles.featureImageBox}>
-            <img src={require('./rucksack-magazine-386319.jpg')} />
+            <img alt="Rucksack Magazine" src={RucksackMagazine} />
             <div className={styles.credit}>
               <UnsplashCreditBadge
                 src="https://unsplash.com/@rucksackmag?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
@@ -69,21 +71,21 @@ const Features = () => (
           </div>
         </Col>
       </Row>
-      <Row reverse={true} style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
+      <Row reverse style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <Col>
           <div className={styles.featureBox}>
             <h2>MODERN JAVASCRIPT WITHOUT THE HEADACHE.</h2>
             <p>
               The JavaScript ecosystem is exploding like uncontained diarrhea, and in the middle of
               that, the overall page size on the Web also increased. So you might think that
-              websites will load slower than ever, shit will break, and we're inching one step
+              websites will load slower than ever, shit will break, and we&apos;re inching one step
               closer to the heat death of the universe.
             </p>
             <p>
               <strong>Wrong, motherfucker</strong>.
             </p>
             <p>
-              Look at how fast this shit loads. It's faster than you can even take a shit. This
+              Look at how fast this shit loads. It&apos;s faster than you can even take a shit. This
               website is rendered with{' '}
               <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
                 Gatsby.js
@@ -99,7 +101,7 @@ const Features = () => (
         </Col>
         <Col>
           <div className={styles.featureImageBox}>
-            <img src={require('./ryan-searle-345035.jpg')} />
+            <img alt="Ryan Searle" src={RyanSearle} />
             <div className={styles.credit}>
               <UnsplashCreditBadge
                 src="https://unsplash.com/@ryansearle?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
@@ -115,13 +117,13 @@ const Features = () => (
             <h2>PERFORMANCE WITHOUT THE UNNECESSARY DIET.</h2>
             <p>
               Think your website is fat? Been thinking to take your website on an unnecessary diet?{' '}
-              Stop the fuck right there. Your motherfucking website looks fine as it is, don't let
-              anybody fucking tell you otherwise.
+              Stop the fuck right there. Your motherfucking website looks fine as it is, don&apos;t
+              let anybody fucking tell you otherwise.
             </p>
             <p>
-              But "page bloat", you say? Sure, back in ye olde Web 2.0 days, this was a problem. But
-              the thing is, on the modern web, page bloat has become much less of a fucking issue{' '}
-              than whether or not we should put in pineapple on a fucking pizza
+              But &quot;page bloat&quot;, you say? Sure, back in ye olde Web 2.0 days, this was a
+              problem. But the thing is, on the modern web, page bloat has become much less of a
+              fucking issue than whether or not we should put in pineapple on a fucking pizza
               <sup>
                 <small>[1]</small>
               </sup>
@@ -130,13 +132,13 @@ const Features = () => (
             <p>
               Especially when newfangled tools and techniques that makes it easier to optimize for
               that sweet, sweet Lighthouse score, that sweet, sweet first meaningful paint (FMP)
-              time. Here's the key to all of these black magic:{' '}
+              time. Here&apos;s the key to all of these black magic:{' '}
               <strong>progressive enhancement</strong>.
             </p>
             <p>
               <small>
-                <sup>[1]</sup> Well hey, I don't care whatever the fuck you do to your pizza, I'm
-                not your mom. So if it tastes good for you, then... why the hell not?
+                <sup>[1]</sup> Well hey, I don&apos;t care whatever the fuck you do to your pizza,
+                I&apos;m not your mom. So if it tastes good for you, then... why the hell not?
               </small>
             </p>
           </div>
@@ -145,7 +147,7 @@ const Features = () => (
           <div className={classnames(styles.featureBox, styles.alternate)}>
             <p>
               Even when you got a shitload of scripts and fonts, you can wrap all the critical ones
-              inside a <code>&lt;link rel="preload"&gt;</code> tag. Thanks to{' '}
+              inside a <code>&lt;link rel=&quot;preload&quot;&gt;</code> tag. Thanks to{' '}
               <a
                 href="https://en.wikipedia.org/wiki/HTTP/2"
                 target="_blank"
@@ -158,7 +160,7 @@ const Features = () => (
             </p>
             <p>
               If your site has got a bunch of CSS shoved into it,{' '}
-              <strong>only load what's critical for the page</strong>, and inline them for good
+              <strong>only load what&apos;s critical for the page</strong>, and inline them for good
               measure. If your CSS load blocks the rendering of your page, fuck you.
             </p>
             <p>
@@ -192,15 +194,16 @@ const Features = () => (
             <div className={styles.innerBox}>
               <h2>GOOD DESIGN WITHOUT THE TORTURE.</h2>
               <p>
-                I'm gonna level with you. I'm suffering from a rare health condition known as
-                "CSS-itis". It prevents me from doing productive shit with, and even touching a
-                single line of CSS, if I could help it. I never thought I would see the light of
-                day.
+                I&apos;m gonna level with you. I&apos;m suffering from a rare health condition known
+                as &quot;CSS-itis&quot;. It prevents me from doing productive shit with, and even
+                touching a single line of CSS, if I could help it. I never thought I would see the
+                light of day.
               </p>
               <p>
-                Here's a solution: CSS-in-JS. I know it sounds counterintuitive, but hear me out.
-                Designing through CSS is already a pain in the ass, especially with globally-scoped
-                classes that will be happy to fuck you over when your CSS gets large. Thank fuck for{' '}
+                Here&apos;s a solution: CSS-in-JS. I know it sounds counterintuitive, but hear me
+                out. Designing through CSS is already a pain in the ass, especially with
+                globally-scoped classes that will be happy to fuck you over when your CSS gets
+                large. Thank fuck for{' '}
                 <a
                   href="https://github.com/css-modules/css-modules"
                   target="_blank"
@@ -209,7 +212,7 @@ const Features = () => (
                   CSS Modules
                 </a>
                 , which takes your existing CSS and solves all of the scoping issues through some JS
-                magic. There's also a lot of other options, like{' '}
+                magic. There&apos;s also a lot of other options, like{' '}
                 <a
                   href="https://github.com/styled-components/styled-components"
                   target="_blank"
@@ -234,8 +237,8 @@ const Features = () => (
               <p>
                 So here you go, all the goodness of CSS-in-JS, rolled into this very page. Beautiful
                 typography. And alignment. Also, light-coloured backgrounds are for losers. I like
-                it dark. It's edgy as fuck. Plus, it doesn't hurt your fucking eyes when you're
-                looking at this beauty for 16 hours straight.
+                it dark. It&apos;s edgy as fuck. Plus, it doesn&apos;t hurt your fucking eyes when
+                you&apos;re looking at this beauty for 16 hours straight.
               </p>
             </div>
           </Col>

@@ -1,22 +1,22 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import * as React from 'react'
-import Link from 'gatsby-link'
 import { animateScroll } from 'react-scroll'
 
 import Container from '../Container'
 import MastheadNavLink from './MastheadNavLink'
 
-import * as styles from './Masthead.module.scss'
+import styles from './Masthead.module.scss'
 
 const scrollToTop = () => {
   animateScroll.scrollToTop()
 }
 
-const Masthead: React.SFC<{}> = () => (
+const Masthead: React.SFC = () => (
   <header className={styles.masthead}>
     <Container>
       <div className={styles.mastheadInner}>
         <div className={styles.mastheadTitle}>
-          <a onClick={scrollToTop}>
+          <a href="#" onClick={scrollToTop}>
             <span className={styles.brand}>■</span> TBMFW
           </a>
         </div>

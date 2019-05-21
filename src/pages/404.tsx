@@ -16,7 +16,7 @@ const NotFoundPage = () => (
         <Container>
           <h1>404 - Page not found.</h1>
           <p>
-            You're on the wrong page, dumbass. <Link to="/">Click here</Link> to go back.
+            You&apos;re on the wrong page, dumbass. <Link to="/">Click here</Link> to go back.
           </p>
         </Container>
       </FullScreenSection>

@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll'
 import Container from '../Container'
 import UnsplashCreditBadge from '../UnsplashCreditBadge'
 
-import * as styles from './Intro.module.scss'
+import styles from './Intro.module.scss'
 
 const Intro = () => (
   <div className={styles.intro}>
@@ -14,7 +14,7 @@ const Intro = () => (
         <p>Your motherfucking websites got nothing compared to this beauty.</p>
       </Container>
     </div>
-    <ScrollLink className={styles.introScrollThingy} to="about" smooth={true} offset={-60}>
+    <ScrollLink className={styles.introScrollThingy} to="about" smooth offset={-60}>
       &#9660; scroll thingy &#9660;
     </ScrollLink>
     <div className={styles.credit}>

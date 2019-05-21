@@ -1,18 +1,17 @@
 import * as React from 'react'
-import Link from 'gatsby-link'
 
 import Container from '../Container'
 import FullScreenSection from '../FullScreenSection'
 
-const Epilogue: React.SFC<{}> = () => (
+const Epilogue: React.SFC = () => (
   <FullScreenSection name="epilogue">
     <Container>
       <h1>
         AND YES, THIS WHOLE THING IS <em>STILL</em> SATIRE, YOU DIPSHIT.
       </h1>
       <p>
-        I'm gonna end this motherfucking rant with some positivity. My point is, yes, it's true that
-        the{' '}
+        I&apos;m gonna end this motherfucking rant with some positivity. My point is, yes, it&apos;s
+        true that the{' '}
         <a
           href="https://www.wired.com/2016/04/average-webpage-now-size-original-doom/"
           target="_blank"
@@ -21,7 +20,7 @@ const Epilogue: React.SFC<{}> = () => (
           average webpage is now the size of the original DOOM
         </a>
         . Sure, websites are getting more and more bloated. But all of these matter less than what
-        they used to be. In fact, the developers of No Man's Sky tried to make their
+        they used to be. In fact, the developers of No Man&apos;s Sky tried to make their
         procedurally-generated game as small as they can. Look how well that turned out.
       </p>
       <p>
@@ -29,12 +28,12 @@ const Epilogue: React.SFC<{}> = () => (
         made it easier to make your codebase less shit. When one door closes, another one opens
         wide. What matters is how can you optimize for that sweet, sweet Lighthouse score, that
         sweet, sweet first meaningful paint (FMP) time. Be it by code splitting, preloading your
-        essentials, lazyloading your shit, or whatever kind of black magic you came up with. I don't
-        care, it's your app. I don't make the rules.
+        essentials, lazyloading your shit, or whatever kind of black magic you came up with. I
+        don&apos;t care, it&apos;s your app. I don&apos;t make the rules.
       </p>
       <p>
-        And sure, the JavaScript platform is exploding like diarrhea, and we've seen a lot of shitty
-        apps written in JavaScript as of late. But just like many other{' '}
+        And sure, the JavaScript platform is exploding like diarrhea, and we&apos;ve seen a lot of
+        shitty apps written in JavaScript as of late. But just like many other{' '}
         <a href="https://secure.php.net/" target="_blank" rel="noopener noreferrer">
           shitty languages
         </a>
@@ -47,8 +46,8 @@ const Epilogue: React.SFC<{}> = () => (
           bad developer
         </a>{' '}
         can take any platform/ecosystem and shit on it. But amongst the dark alleyways filled with
-        piles of shit, there's still a majority of people trying their hardest to make things better
-        for everyone.
+        piles of shit, there&apos;s still a majority of people trying their hardest to make things
+        better for everyone.
       </p>
       <blockquote>
         <p>
@@ -74,7 +73,7 @@ const Epilogue: React.SFC<{}> = () => (
         <a href="https://twitter.com/A7_145" target="_blank" rel="noopener noreferrer">
           him
         </a>
-        . It's entirely open-source and available on{' '}
+        . It&apos;s entirely open-source and available on{' '}
         <a
           href="https://github.com/resir014/thebestmotherfuckingwebsite.co"
           target="_blank"
