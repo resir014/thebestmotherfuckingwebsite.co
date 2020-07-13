@@ -37,17 +37,10 @@ export const Epilogue: React.SFC = () => (
         <a href="https://secure.php.net/" target="_blank" rel="noopener noreferrer">
           shitty languages
         </a>
-        , <strong>the language itself is hardly an issue</strong>. Any{' '}
-        <a
-          href="https://en.wikipedia.org/wiki/Lennart_Poettering"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          bad developer
-        </a>{' '}
-        can take any platform/ecosystem and shit on it. But amongst the dark alleyways filled with
-        piles of shit, there&apos;s still a majority of people trying their hardest to make things
-        better for everyone.
+        , <strong>the language itself is hardly an issue</strong>. Any bad developer can take any 
+        platform/ecosystem and shit on it. But amongst the dark alleyways filled with piles of
+        shit, there&apos;s still a majority of people trying their hardest to make things better
+        for everyone.
       </p>
       <blockquote>
         <p>
