@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import { Masthead } from '../components/Masthead'
@@ -41,38 +41,38 @@ const query = graphql`
   }
 `
 
-const IndexLayout: React.SFC = ({ children }) => (
-  <StaticQuery query={query}>
-    {(data: StaticQueryProps) => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: data.site.siteMetadata.description },
-            {
-              name: 'keywords',
-              content: 'web design, motherfucking website, motherfuckingwebsite'
-            },
-            { property: 'og:title', content: data.site.siteMetadata.title },
-            { property: 'og:type', content: 'website' },
-            { property: 'og:image', content: '/image-og.png' },
-            { property: 'og:description', content: data.site.siteMetadata.description }
-          ]}
-        />
-        <Masthead />
-        <main
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            minHeight: '100vh',
-            paddingTop: '60px'
-          }}
-        >
-          {children}
-        </main>
-      </>
-    )}
-  </StaticQuery>
-)
+const IndexLayout: React.SFC = ({ children }) => {
+  const data: StaticQueryProps = useStaticQuery(query)
+
+  return (
+    <>
+      <Helmet
+        title={data.site.siteMetadata.title}
+        meta={[
+          { name: 'description', content: data.site.siteMetadata.description },
+          {
+            name: 'keywords',
+            content: 'web design, motherfucking website, motherfuckingwebsite'
+          },
+          { property: 'og:title', content: data.site.siteMetadata.title },
+          { property: 'og:type', content: 'website' },
+          { property: 'og:image', content: '/image-og.png' },
+          { property: 'og:description', content: data.site.siteMetadata.description }
+        ]}
+      />
+      <Masthead />
+      <main
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '100vh',
+          paddingTop: '60px'
+        }}
+      >
+        {children}
+      </main>
+    </>
+  )
+}
 
 export default IndexLayout
