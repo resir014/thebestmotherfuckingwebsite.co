@@ -1,12 +1,6 @@
 {
   "root": true,
-  "extends": [
-    "blvd/react",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["blvd/react", "prettier", "prettier/@typescript-eslint", "prettier/react", "plugin:prettier/recommended"],
   "plugins": ["prettier", "react-hooks"],
   "rules": {
     "@typescript-eslint/camelcase": "off",
@@ -14,6 +8,7 @@
     "@typescript-eslint/no-explicit-any": "off",
     "import/prefer-default-export": "off",
     "prettier/prettier": "error",
+    "react/jsx-props-no-spreading": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   }
