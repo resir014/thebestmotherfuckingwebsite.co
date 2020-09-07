@@ -14,18 +14,10 @@ export const Footer = () => (
           <a href="http://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">
             these
           </a>{' '}
-          <a
-            href="http://bettermotherfuckingwebsite.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="http://bettermotherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">
             motherfucking
           </a>{' '}
-          <a
-            href="http://evenbettermotherfucking.website/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="http://evenbettermotherfucking.website/" target="_blank" rel="noopener noreferrer">
             websites
           </a>
           .

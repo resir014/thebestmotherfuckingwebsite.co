@@ -12,14 +12,7 @@ interface HtmlProps {
   headComponents: React.ReactNodeArray
 }
 
-export default function HTML({
-  htmlAttributes,
-  headComponents,
-  bodyAttributes,
-  preBodyComponents,
-  body,
-  postBodyComponents
-}: HtmlProps) {
+export default function HTML({ htmlAttributes, headComponents, bodyAttributes, preBodyComponents, body, postBodyComponents }: HtmlProps) {
   return (
     <html {...htmlAttributes}>
       <head>
@@ -30,11 +23,7 @@ export default function HTML({
         <link rel="icon" type="image/png" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="144x144" href="/windows-tile-icon.png" />
 
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="https://thebestmotherfuckingwebsite.co/apple-touch-icon.png"
-        />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://thebestmotherfuckingwebsite.co/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
         {headComponents}
       </head>
