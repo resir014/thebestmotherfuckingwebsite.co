@@ -195,10 +195,6 @@ export const Features = () => (
                 <a href="https://emotion.sh/" target="_blank" rel="noopener noreferrer">
                   Emotion
                 </a>
-                ,{' '}
-                <a href="https://github.com/paypal/glamorous" target="_blank" rel="noopener noreferrer">
-                  glamorous
-                </a>
                 , etc.
               </p>
               <p>
