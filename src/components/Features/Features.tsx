@@ -117,7 +117,7 @@ export const Features = () => (
               But &quot;page bloat&quot;, you say? Sure, back in ye olde Web 2.0 days, this was a problem. But the thing is, on the modern
               web, page bloat has become much less of a fucking issue than whether or not we should put in pineapple on a fucking pizza
               <sup>
-                <small>[1]</small>
+                <small>[2]</small>
               </sup>
               .
             </p>
@@ -128,7 +128,7 @@ export const Features = () => (
             </p>
             <p>
               <small>
-                <sup>[1]</sup> Well hey, I don&apos;t care whatever the fuck you do to your pizza, I&apos;m not your mom. So if it tastes
+                <sup>[2]</sup> Well hey, I don&apos;t care whatever the fuck you do to your pizza, I&apos;m not your mom. So if it tastes
                 good for you, then... why the hell not?
               </small>
             </p>
