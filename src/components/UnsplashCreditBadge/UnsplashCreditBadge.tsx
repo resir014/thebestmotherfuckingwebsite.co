@@ -18,7 +18,7 @@ export const UnsplashCreditBadge: React.SFC<UnsplashCreditBadgeProps> = ({ src, 
     title={`Download free do whatever you want high-resolution photos by ${author} from Unsplash`}
   >
     <span>
-      <img alt="Visit Page" src={Image} />
+      <img alt="Visit Page" src={Image} loading=lazy>
     </span>
     <span>{author}</span>
   </a>
