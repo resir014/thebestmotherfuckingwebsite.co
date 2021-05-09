@@ -198,6 +198,10 @@ export const Features = () => (
                 , etc.
               </p>
               <p>
+                And for everyone's sake, use a sensible, consistent color theme. Don't use 50 different colors that murder people's eyes.
+                It's called styling, not eye murder.
+              </p>
+              <p>
                 So here you go, all the goodness of CSS-in-JS, rolled into this very page. Beautiful typography. And alignment. Also,
                 light-coloured backgrounds are for losers. I like it dark. It&apos;s edgy as fuck. Plus, it doesn&apos;t hurt your fucking
                 eyes when you&apos;re looking at this beauty for 16 hours straight.
